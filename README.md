@@ -14,7 +14,7 @@
 * ✅ Introduction to C++
 * ✅ C++ History & Features
 * ✅ Compiler & Compilation Process
-* ⬜ Source Code → Object Code → Executable
+* ✅ Source Code → Object Code → Executable
 * ⬜ `main()` Function
 * ⬜ Comments
 * ⬜ Keywords
