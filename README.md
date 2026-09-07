@@ -11,7 +11,7 @@
 
 # 📌 01. C++ Fundamentals
 
-* ⬜ Introduction to C++
+* ✅ Introduction to C++
 * ⬜ C++ History & Features
 * ⬜ Compiler & Compilation Process
 * ⬜ Source Code → Object Code → Executable
