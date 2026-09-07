@@ -1,0 +1,81 @@
+==================================================
+01. INTRODUCTION TO C++
+==================================================
+
+1. What is C++?
+
+C++ is a general-purpose, compiled programming language
+developed by Bjarne Stroustrup.
+
+It supports:
+- Procedural Programming
+- Object-Oriented Programming
+- Generic Programming
+
+
+2. History of C++
+
+- Developed by Bjarne Stroustrup
+- Development started in 1979
+- Originally called "C with Classes"
+- Renamed C++ in 1983
+
+
+3. Features of C++
+
+- High Performance
+- Object-Oriented Programming
+- Strongly Typed
+- Memory Management
+- STL (Standard Template Library)
+- Cross-Platform
+
+
+4. Applications
+
+- System Software
+- Game Development
+- Desktop Applications
+- Embedded Systems
+- Competitive Programming
+- High-Performance Applications
+
+
+5. First C++ Program
+
+	Syntax:
+
+	#include <iostream>
+
+	int main()
+	{
+	    // code
+	    return 0;
+	}
+
+
+Example:
+
+	#include <iostream>
+
+	int main()
+	{
+	    std::cout << "Hello, World!";
+	    return 0;
+	}
+
+
+6. Important Components
+
+#include <iostream>
+    -> Used for input/output operations.
+
+int main()
+    -> Program execution starts from main().
+
+std::cout
+    -> Used to display output.
+
+return 0;
+    -> Indicates successful program termination.
+==================================================
