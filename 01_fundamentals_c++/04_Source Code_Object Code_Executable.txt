@@ -1,0 +1,15 @@
+Source Code → Object Code → Executable
+
+1. Source Code
+   Programmer jo C++ code likhta hai.
+   Example: main.cpp
+
+2. Object Code
+   Compiler C++ code ko machine code me convert karta hai.
+   Example: main.obj
+
+3. Executable Code
+   Linker object code aur libraries ko jodkar final .exe file banata hai.
+
+Flow:
+Source Code → Compiler → Object Code → Linker → Executable (.exe)
