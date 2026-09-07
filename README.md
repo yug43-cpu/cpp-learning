@@ -777,18 +777,6 @@
 
 ---
 
-# 📊 Progress
-
-**Current Level:** Beginner
-
-**Completed:** 0%
-
-**Currently Learning:** None
-
-**Next Topic:** C++ Fundamentals
-
----
-
 # 🎯 My Goal
 
 > Learn C++ from fundamentals to advanced level, build real projects, master DSA and become confident in problem solving.
