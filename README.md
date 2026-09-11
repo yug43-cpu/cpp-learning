@@ -29,26 +29,26 @@
 
 # 📌 02. Variables & Data Types
 
-* 🔄 Variables
-* ⬜ Constants
-* ⬜ Declaration & Initialization
-* ⬜ `int`
-* ⬜ `float`
-* ⬜ `double`
-* ⬜ `char`
-* ⬜ `bool`
-* ⬜ `void`
-* ⬜ `string`
-* ⬜ Type Modifiers
+* ✅ Variables
+* ✅ Constants
+* ✅ Declaration & Initialization
+* ✅ `int`
+* ✅ `float`
+* ✅ `double`
+* ✅ `char`
+* ✅ `bool`
+* ✅ `void`
+* ✅ `string`
+* ✅ Type Modifiers
 
-  * ⬜ `short`
-  * ⬜ `long`
-  * ⬜ `signed`
-  * ⬜ `unsigned`
-* ⬜ Type Conversion
-* ⬜ Type Casting
-* ⬜ `static_cast`
-* ⬜ `sizeof`
+  * ✅ `short`
+  * ✅ `long`
+  * ✅ `signed`
+  * ✅ `unsigned`
+* ✅ Type Conversion
+* ✅ Type Casting
+* ✅ `static_cast`
+* ✅ `sizeof`
 
 ---
 
