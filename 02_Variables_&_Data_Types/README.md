@@ -1,4 +1,4 @@
-VARIABLES & DATA TYPES
+# VARIABLES & DATA TYPES
 
 Learn about variables and different data types in C++.
 
