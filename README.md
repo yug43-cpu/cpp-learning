@@ -54,15 +54,15 @@
 
 # 📌 03. Input & Output
 
-* 🔄 `cout`
-* ⬜ `cin`
-* ⬜ `cerr`
-* ⬜ `clog`
-* ⬜ `endl`
-* ⬜ Escape Sequences
-* ⬜ Multiple Inputs
-* ⬜ Multiple Outputs
-* ⬜ `getline()`
+* ✅ `cout`
+* ✅ `cin`
+* ✅ `cerr`
+* ✅ `clog`
+* ✅ `endl`
+* ✅ Escape Sequences
+* ✅ Multiple Inputs
+* ✅ Multiple Outputs
+* ✅ `getline()`
 
 ---
 
