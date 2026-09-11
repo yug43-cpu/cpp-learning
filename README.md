@@ -15,15 +15,15 @@
 * ✅ C++ History & Features
 * ✅ Compiler & Compilation Process
 * ✅ Source Code → Object Code → Executable
-* ⬜ `main()` Function
-* ⬜ Comments
-* ⬜ Keywords
-* ⬜ Identifiers
-* ⬜ Basic Program Structure
-* ⬜ Header Files
-* ⬜ `#include`
-* ⬜ `using namespace std`
-* ⬜ `std::`
+* ✅ `main()` Function
+* ✅ Comments
+* ✅ Keywords
+* ✅ Identifiers
+* ✅ Basic Program Structure
+* ✅ Header Files
+* ✅ `#include`
+* ✅ `using namespace std`
+* ✅ `std::`
 
 ---
 
