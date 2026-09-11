@@ -1,3 +1,3 @@
 Variables & Data Types
-Learn about variables and different data types used in C++.
-Also learn how to convert data between different types.
+Learn how to store different types of data in C++ using variables and data types.
+Also covers type conversion, type casting, and sizeof.
