@@ -1,0 +1,30 @@
+STATIC_CAST
+
+static_cast is used to manually convert one data type into another in C++.
+
+Syntax:
+static_cast<new_data_type>(value)
+
+Example:
+
+double a = 10.5;
+int b = static_cast<int>(a);
+
+Here:
+double = original data type
+int = new data type
+static_cast<int> = converts double to int
+10.5 becomes 10
+
+
+Example:
+
+int a = 10;
+double b = static_cast<double>(a);
+
+Here, int 10 is converted to double 10.0.
+
+
+In simple words:
+
+static_cast = safe and clear way to perform type conversion in C++.

@@ -1,0 +1,10 @@
+VOID
+
+void is a data type that means "no value".
+It is mainly used when a function does not return any value.
+
+Example:
+void display()
+{
+    cout << "Hello";
+}

@@ -1,0 +1,33 @@
+SIZEOF
+
+sizeof is an operator in C++ used to find the size of a data type or variable in bytes.
+
+Syntax:
+sizeof(data_type);
+
+Example:
+int age = 20;
+
+cout << sizeof(age);
+
+Output:
+4
+
+Common Sizes:
+
+| Data Type | Typical Size |
+|-----------|--------------|
+| char      | 1 byte       |
+| int       | 4 bytes      |
+| float     | 4 bytes      |
+| double    | 8 bytes      |
+| bool      | 1 byte       |
+
+Example:
+
+cout << sizeof(int);
+cout << sizeof(double);
+
+In simple words:
+
+sizeof = tells how much memory a data type or variable uses.

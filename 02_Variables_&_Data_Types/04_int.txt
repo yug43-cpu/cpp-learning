@@ -1,0 +1,13 @@
+INT
+
+int is a data type used to store whole numbers (integers).
+It does not store decimal values.
+
+Example:
+int age = 20;
+int marks = 85;
+
+Here:
+int = data type
+age = variable
+20 = value

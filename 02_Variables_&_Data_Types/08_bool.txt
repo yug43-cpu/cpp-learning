@@ -1,0 +1,29 @@
+BOOL
+
+bool is a data type used to store only two values: true or false.
+It is mainly used for conditions and checking whether something is true or false.
+
+Example:
+bool isStudent = true;
+bool isPassed = false;
+
+Here:
+bool = data type
+isStudent = variable
+true = value       
+
+
+
+                     			 OR 
+
+
+
+BOOLEAN
+
+Boolean is a data type used to store only two values: true or false.
+
+Example:
+bool isStudent = true;
+bool isPassed = false;
+
+In C++, the keyword used for Boolean values is "bool".

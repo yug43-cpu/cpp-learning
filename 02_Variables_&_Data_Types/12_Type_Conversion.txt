@@ -1,0 +1,37 @@
+TYPE CONVERSION
+
+Type conversion means converting a value from one data type to another data type.
+
+Types of Type Conversion:
+
+| Type       | Meaning             | Done By      |
+|------------|---------------------|--------------|
+| Implicit   | Automatic conversion| Compiler     |
+| Explicit   | Manual conversion   | Programmer   |
+
+1. IMPLICIT TYPE CONVERSION
+
+It is automatically done by the compiler.
+
+Example:
+int a = 10;
+double b = a;
+
+Here, int is automatically converted to double.
+
+
+2. EXPLICIT TYPE CONVERSION
+
+It is manually done by the programmer.
+It is also called Type Casting.
+
+Example:
+double a = 10.5;
+int b = (int)a;
+
+Here, double is manually converted to int.
+
+In simple words:
+
+Implicit = Automatic
+Explicit = Manual

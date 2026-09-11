@@ -1,0 +1,13 @@
+FLOAT
+
+float is a data type used to store decimal numbers.
+It is used when we need values with a decimal point.
+
+Example:
+float height = 5.5;
+float price = 99.50;
+
+Here:
+float = data type
+height = variable
+5.5 = decimal value

@@ -1,0 +1,56 @@
+TYPE MODIFIERS
+
+Type modifiers are used to change the size or range of a basic data type in C++.
+
+Common Type Modifiers:
+
+1. short
+2. long
+3. signed
+4. unsigned
+
+
+
+
+
+
+
+1. SHORT
+
+short is used to store smaller integer values.
+
+Example:
+short int age = 20;
+
+
+2. LONG
+
+long is used to store larger integer values than int.
+
+Example:
+long int population = 1000000;
+
+
+3. SIGNED
+
+signed is used to store both positive and negative values.
+
+Example:
+signed int marks = -50;
+
+
+4. UNSIGNED
+
+unsigned is used to store only zero and positive values.
+It can store a larger positive range than signed for the same type.
+
+Example:
+unsigned int count = 100;
+
+
+In simple words:
+
+short    = smaller range
+long     = larger range
+signed   = positive + negative
+unsigned = only zero + positive

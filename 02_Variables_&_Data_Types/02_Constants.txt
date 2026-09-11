@@ -1,0 +1,12 @@
+CONSTANTS
+
+A constant is a value that cannot be changed during the program.
+It is used when we want to keep a value fixed.
+
+Example:
+const int age = 20;
+
+Here:
+const = makes the value constant
+age = constant variable
+20 = fixed value

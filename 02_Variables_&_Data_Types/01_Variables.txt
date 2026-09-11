@@ -1,0 +1,15 @@
+VARIABLES
+
+A variable is a name used to store a value in a C++ program.
+The value of a variable can be changed during program execution.
+
+Syntax:
+data_type variable_name = value;
+
+Example:
+int age = 99;
+
+Here:
+int = data type
+age = variable name
+99 = value

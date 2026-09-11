@@ -1,0 +1,29 @@
+TYPE CASTING
+
+Type casting means manually converting a value from one data type to another data type.
+
+It is also called Explicit Type Conversion.
+
+Example:
+
+double a = 10.5;
+int b = (int)a;
+
+Here:
+a = 10.5
+(int) = converts double to int
+b = 10
+
+Common Type Casting:
+
+| Type              | Meaning                    |
+|-------------------|----------------------------|
+| C-style Casting   | (int)value                 |
+| static_cast       | static_cast<int>(value)    |
+| const_cast        | Changes const property     |
+| dynamic_cast      | Used with class objects    |
+| reinterpret_cast  | Low-level type conversion  |
+
+In simple words:
+
+Type Casting = Manual conversion of one data type into another.

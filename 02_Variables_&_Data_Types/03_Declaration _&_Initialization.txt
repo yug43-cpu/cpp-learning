@@ -1,0 +1,11 @@
+DECLARATION & INITIALIZATION
+
+Declaration means creating a variable by specifying its data type and name.
+Initialization means giving a value to the variable when it is created.
+
+Example:
+int age = 20;
+
+Here:
+int age;     = Declaration
+age = 20;    = Initialization

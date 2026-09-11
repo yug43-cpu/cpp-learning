@@ -1,0 +1,8 @@
+DOUBLE
+
+double is a data type used to store decimal numbers with more precision than float.
+It is useful when we need more accurate decimal values.
+
+Example:
+double price = 99.9999;
+double distance = 123.456789;
