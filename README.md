@@ -29,7 +29,7 @@
 
 # 📌 02. Variables & Data Types
 
-* ⬜ Variables
+* 🔄 Variables
 * ⬜ Constants
 * ⬜ Declaration & Initialization
 * ⬜ `int`
@@ -54,7 +54,7 @@
 
 # 📌 03. Input & Output
 
-* ⬜ `cout`
+* 🔄 `cout`
 * ⬜ `cin`
 * ⬜ `cerr`
 * ⬜ `clog`
@@ -66,7 +66,7 @@
 
 ---
 
-# 📌 04. Operators
+# 📌 04. Operators 🔄
 
 * ⬜ Arithmetic Operators
 * ⬜ Assignment Operators
