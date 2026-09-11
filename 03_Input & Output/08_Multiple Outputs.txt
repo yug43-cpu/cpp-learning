@@ -1,0 +1,70 @@
+MULTIPLE OUTPUTS
+
+Definition:
+
+Multiple outputs means displaying more than one value or result
+on the screen using cout.
+
+Syntax:
+
+    cout << value1 << value2 << value3;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int age = 20;
+        float height = 5.5;
+
+        cout << "Age: " << age << endl;
+        cout << "Height: " << height;
+
+        return 0;
+    }
+
+
+Output:
+
+    Age: 20
+    Height: 5.5
+
+
+Here:
+
+    cout = displays output
+    << = output operator
+    age = first output value
+    height = second output value
+    endl = moves to the next line
+
+
+Example of Multiple Outputs in One Statement:
+
+    cout << "Age: " << age << " Height: " << height;
+
+
+Output:
+
+    Age: 20 Height: 5.5
+
+
+Key Points:
+
+    1. Multiple outputs can be displayed using one cout statement.
+    2. Use << between multiple values.
+    3. Text and variables can be displayed together.
+
+
+In simple words:
+
+    Multiple Outputs = ek se zyada values ko screen par display karna.
+
+
+Exam Answer:
+
+Multiple outputs means displaying two or more values on the screen
+using the cout statement and output operator (<<).

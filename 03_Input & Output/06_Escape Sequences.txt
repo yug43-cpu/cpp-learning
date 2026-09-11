@@ -1,0 +1,71 @@
+ESCAPE SEQUENCES
+
+Definition:
+
+Escape sequences are special characters used inside a string or character.
+They start with a backslash (\) and are used to perform special actions.
+
+Common Escape Sequences:
+
+| Escape Sequence | Meaning |
+|-----------------|---------|
+| \n              | New line |
+| \t              | Tab space |
+| \\              | Backslash |
+| \"              | Double quote |
+| \'              | Single quote |
+| \b              | Backspace |
+| \r              | Carriage return |
+
+Example:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello\nWorld";
+    return 0;
+}
+
+
+Output:
+
+Hello
+World
+
+
+Example of \t:
+
+cout << "Name\tAge";
+
+Output:
+
+Name    Age
+
+
+Here:
+
+\n = moves to the next line
+\t = gives tab space
+\\ = prints a backslash
+\" = prints a double quote
+\' = prints a single quote
+
+
+Key Points:
+
+1. Escape sequences start with a backslash (\).
+2. They are used inside strings and characters.
+3. They perform special formatting or actions.
+4. \n and \t are the most commonly used escape sequences.
+
+
+In simple words:
+
+Escape sequence = special character code used to perform a special action.
+
+
+Exam Answer:
+
+Escape sequences are special character combinations beginning with a backslash (\) that are used to perform special actions in C++ strings and characters.

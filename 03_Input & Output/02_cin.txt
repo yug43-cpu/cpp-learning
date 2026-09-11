@@ -1,0 +1,25 @@
+CIN
+
+cin is used to take input from the user.
+
+Syntax:
+cin >> variable;
+
+Example:
+int age;
+cin >> age;
+
+Here:
+cin = input
+>> = input operator
+age = variable that stores the input
+
+Complete Example:
+
+int age;
+
+cout << "Enter your age: ";
+cin >> age;
+
+In simple words:
+cin = user se input lene ke liye use hota hai.

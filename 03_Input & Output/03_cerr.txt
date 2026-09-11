@@ -1,0 +1,50 @@
+CERR
+
+Definition:
+
+cerr is an output stream used to display error messages on the screen.
+
+Syntax:
+
+cerr << "Error message";
+
+
+Example:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cerr << "File not found!";
+    return 0;
+}
+
+
+Output:
+
+File not found!
+
+
+Here:
+
+cerr = error output stream
+<< = output operator
+"File not found!" = error message
+
+
+Key Points:
+
+1. cerr is used to display error messages.
+2. cerr is an output stream.
+3. It is mainly used for error or diagnostic messages.
+
+
+In simple words:
+
+cerr = used to display error messages.
+
+
+Exam Answer:
+
+cerr is an output stream used to display error messages or diagnostic messages on the screen.

@@ -1,0 +1,95 @@
+GETLINE()
+
+Definition:
+
+getline() is used to take a complete line of text as input from the user.
+It can read spaces between words.
+
+Syntax:
+
+    getline(cin, variable);
+
+
+Example:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string name;
+
+        cout << "Enter your full name: ";
+        getline(cin, name);
+
+        cout << "Your name is: " << name;
+
+        return 0;
+    }
+
+
+Input:
+
+    Yug Kumar
+
+
+Output:
+
+    Your name is: Yug Kumar
+
+
+Here:
+
+    getline() = takes a complete line as input
+    cin = input stream
+    name = variable that stores the input
+
+
+Difference between cin and getline():
+
+    cin >> name
+        = reads input only up to the first space
+
+    getline(cin, name)
+        = reads the complete line including spaces
+
+
+Example:
+
+    cin >> name;
+
+    Input:
+    Yug Kumar
+
+    Stored:
+    Yug
+
+
+    getline(cin, name);
+
+    Input:
+    Yug Kumar
+
+    Stored:
+    Yug Kumar
+
+
+Key Points:
+
+    1. getline() is used to take a complete line as input.
+    2. It can read spaces between words.
+    3. It is commonly used with string variables.
+    4. Syntax is getline(cin, variable).
+
+
+In simple words:
+
+    getline() = user se complete line input lene ke liye use hota hai,
+    including spaces.
+
+
+Exam Answer:
+
+getline() is a C++ function used to read a complete line of text
+from the user, including spaces.

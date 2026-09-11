@@ -1,0 +1,19 @@
+COUT
+
+cout is used to display output on the screen.
+
+Syntax:
+cout << value;
+
+Example:
+cout << "Hello World";
+
+Output:
+Hello World
+
+Here:
+cout = output
+<<   = output operator
+
+In simple words:
+cout = screen par output dikhane ke liye use hota hai.

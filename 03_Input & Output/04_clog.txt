@@ -1,0 +1,58 @@
+CLOG
+
+Definition:
+
+clog is an output stream used to display log or diagnostic messages on the screen.
+
+Syntax:
+
+clog << "Log message";
+
+
+Example:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    clog << "Program is running...";
+    return 0;
+}
+
+
+Output:
+
+Program is running...
+
+
+Here:
+
+clog = log/diagnostic output stream
+<< = output operator
+"Program is running..." = log message
+
+
+Key Points:
+
+1. clog is used to display log or diagnostic messages.
+2. clog is an output stream.
+3. It is mainly used for logging information about a program.
+4. clog is similar to cerr, but it is generally used for normal logging.
+
+
+Difference between cout, cerr and clog:
+
+cout = Normal output
+cerr = Error messages
+clog = Log/diagnostic messages
+
+
+In simple words:
+
+clog = used to display log or diagnostic messages.
+
+
+Exam Answer:
+
+clog is an output stream used to display log or diagnostic messages in a C++ program.

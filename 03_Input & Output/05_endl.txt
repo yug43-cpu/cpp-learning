@@ -1,0 +1,65 @@
+ENDL
+
+Definition:
+
+endl is used to move the cursor to the next line.
+It also flushes the output buffer.
+
+Syntax:
+
+cout << "Hello" << endl;
+
+
+Example:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello" << endl;
+    cout << "World";
+    return 0;
+}
+
+
+Output:
+
+Hello
+World
+
+
+Here:
+
+endl = moves to the next line
+<< = output operator
+
+
+Example:
+
+cout << "Name: Yug" << endl;
+cout << "Age: 20";
+
+
+Output:
+
+Name: Yug
+Age: 20
+
+
+Key Points:
+
+1. endl is used to insert a new line.
+2. It moves the cursor to the next line.
+3. It also flushes the output buffer.
+4. endl is commonly used with cout.
+
+
+In simple words:
+
+endl = next line par jane ke liye use hota hai.
+
+
+Exam Answer:
+
+endl is a C++ manipulator used to insert a new line and flush the output buffer.

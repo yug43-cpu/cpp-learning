@@ -1,0 +1,66 @@
+MULTIPLE INPUTS
+
+Definition:
+
+Multiple inputs means taking more than one input from the user in a single program.
+In C++, multiple inputs can be taken using cin and the input operator (>>).
+
+Syntax:
+
+cin >> variable1 >> variable2 >> variable3;
+
+
+Example:
+
+	#include <iostream>
+	using namespace std;
+
+	int main()
+	{
+	    int age;
+	    float height;
+
+	    cout << "Enter age and height: ";
+	    cin >> age >> height;
+
+	    cout << "Age: " << age << endl;
+	    cout << "Height: " << height;
+
+	    return 0;
+	}
+
+
+Input:
+
+20 5.5
+
+
+Output:
+
+Age: 20
+Height: 5.5
+
+
+Here:
+
+cin = takes input from the user
+>> = input operator
+age = stores the first input
+height = stores the second input
+
+
+Key Points:
+
+1. Multiple inputs can be taken using one cin statement.
+2. Use >> between the variables.
+3. Inputs are usually separated by spaces or Enter.
+
+
+In simple words:
+
+Multiple Inputs = ek hi program me ek se zyada values user se lena.
+
+
+Exam Answer:
+
+Multiple inputs means taking two or more values from the user in a single program using the cin statement and input operator (>>).
