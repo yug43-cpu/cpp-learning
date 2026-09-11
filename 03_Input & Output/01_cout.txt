@@ -1,4 +1,4 @@
-COUT
+# COUT
 
 cout is used to display output on the screen.
 
