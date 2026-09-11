@@ -1,0 +1,19 @@
+USING NAMESPACE STD
+
+using namespace std is used to use standard C++ features
+without writing "std::" before them.
+
+Example:
+
+using namespace std;
+
+cout << "Hello";
+cin >> age;
+
+Without using namespace std:
+
+std::cout << "Hello";
+std::cin >> age;
+
+In simple words:
+It makes C++ standard functions easier to write.

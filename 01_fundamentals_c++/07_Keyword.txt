@@ -1,0 +1,22 @@
+KEYWORDS IN C++
+
+Keywords are reserved words in C++.
+They have a special meaning and cannot be used as variable or function names.
+
+Examples:
+int
+float
+char
+if
+else
+for
+while
+return
+class
+public
+private
+
+Example:
+int age = 20;
+
+Here, "int" is a keyword.

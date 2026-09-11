@@ -1,0 +1,21 @@
+COMMENTS IN C++
+
+Comments are notes written in a program for understanding the code.
+The compiler does not execute comments.
+
+Types of Comments:
+
+1. Single-line Comment
+Used for writing a comment in one line.
+
+Example:
+// This is a comment
+
+2. Multi-line Comment
+Used for writing comments in multiple lines.
+
+Example:
+/*
+This is a
+multi-line comment
+*/

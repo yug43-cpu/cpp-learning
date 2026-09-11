@@ -1,0 +1,16 @@
+HEADER FILES IN C++
+
+Header files contain ready-made functions and features that we can use in a C++ program.
+
+They are included using #include.
+
+Example:
+#include <iostream>
+
+Here, iostream is a header file.
+It allows us to use cout and cin.
+
+Common Header Files:
+<iostream>  - input and output
+<string>    - strings
+<cmath>     - mathematical functions

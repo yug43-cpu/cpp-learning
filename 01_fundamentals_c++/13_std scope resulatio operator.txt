@@ -1,0 +1,16 @@
+std:: IN C++
+
+std:: is used to access features of the C++ standard library.
+
+Example:
+
+std::cout << "Hello";
+std::cin >> age;
+
+Here:
+std:: = standard namespace
+cout = output
+cin = input
+
+In simple words:
+std:: tells C++ that cout, cin, etc. belong to the standard library.

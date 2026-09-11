@@ -1,0 +1,19 @@
+MAIN() FUNCTION
+
+main() is the function where a C++ program starts running.
+
+In simple words:
+When we run a C++ program, the computer starts executing the program from main().
+
+Example:
+
+int main()
+{
+    cout << "Hello";
+    return 0;
+}
+
+Here:
+- main() = starting point of the program
+- cout = displays output
+- return 0 = program ended successfully

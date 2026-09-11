@@ -1,0 +1,21 @@
+IDENTIFIERS IN C++
+
+Identifiers are the names given to variables, functions, classes, etc.
+They are used to identify different parts of a program.
+
+Examples:
+age
+studentName
+totalMarks
+main
+
+Rules:
+1. It can contain letters, digits and underscore (_).
+2. It cannot start with a digit.
+3. It cannot contain spaces.
+4. It cannot be a C++ keyword.
+
+Example:
+int age = 20;
+
+Here, "age" is an identifier.

@@ -1,0 +1,33 @@
+BASIC PROGRAM STRUCTURE IN C++
+
+A basic C++ program usually contains these parts:
+
+1. Header File
+Used to include required libraries.
+Example:
+#include <iostream>
+
+2. Namespace
+Used to use standard C++ features.
+Example:
+using namespace std;
+
+3. main() Function
+It is the starting point of the program.
+
+4. Statements
+These are the instructions written inside main().
+
+5. return 0
+It shows that the program ended successfully.
+
+Example:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello World";
+    return 0;
+}

@@ -1,0 +1,22 @@
+#include IN C++
+
+#include is used to include a header file in a C++ program.
+
+It tells the compiler to include the required library before running the program.
+
+Example:
+#include <iostream>
+
+Here:
+#include = tells the compiler to include a file
+<iostream> = header file used for input and output
+
+Example:
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello";
+    return 0;
+}
