@@ -68,9 +68,9 @@
 
 # 📌 04. Operators 🔄
 
-* ⬜ Arithmetic Operators
-* ⬜ Assignment Operators
-* ⬜ Comparison Operators
+* ✅ Arithmetic Operators
+* ✅ Assignment Operators
+* ✅ Comparison Operators
 * ⬜ Logical Operators
 * ⬜ Increment / Decrement
 * ⬜ Bitwise Operators
