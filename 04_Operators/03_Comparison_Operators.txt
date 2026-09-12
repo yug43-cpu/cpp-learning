@@ -1,0 +1,73 @@
+COMPARISON OPERATORS
+
+Definition:
+
+Comparison operators are used to compare two values.
+They return either true or false.
+
+
+Comparison Operators:
+
+    Operator    Meaning                  Example
+    ------------------------------------------------
+    ==          Equal to                 a == b
+    !=          Not equal to             a != b
+    >           Greater than             a > b
+    <           Less than                a < b
+    >=          Greater than or equal    a >= b
+    <=          Less than or equal       a <= b
+
+
+Example:
+
+    int a = 10;
+    int b = 5;
+
+    cout << (a > b);
+
+
+Output:
+
+    1
+
+
+Here:
+
+    1 = true
+    0 = false
+
+    a > b
+    10 > 5, so the result is true.
+
+
+Example:
+
+    int a = 10;
+    int b = 10;
+
+    cout << (a == b);
+
+
+Output:
+
+    1
+
+
+Key Points:
+
+    1. Comparison operators compare two values.
+    2. They return true or false.
+    3. They are commonly used in if, while and other conditions.
+    4. == means equal to, while = means assignment.
+
+
+In simple words:
+
+    Comparison Operators = do values ko compare karne ke liye
+    use hote hain.
+
+
+Exam Answer:
+
+Comparison operators are used to compare two values.
+They return a Boolean result, either true or false.

@@ -1,0 +1,83 @@
+ARITHMETIC OPERATORS
+
+Definition:
+
+Arithmetic operators are used to perform mathematical calculations
+such as addition, subtraction, multiplication, division and remainder.
+
+
+Arithmetic Operators:
+
+    Operator    Meaning          Example
+    -----------------------------------------
+    +           Addition         a + b
+    -           Subtraction      a - b
+    *           Multiplication   a * b
+    /           Division         a / b
+    %           Modulus          a % b
+
+
+Example:
+
+    int a = 10;
+    int b = 3;
+
+    cout << a + b << endl;
+    cout << a - b << endl;
+    cout << a * b << endl;
+    cout << a / b << endl;
+    cout << a % b;
+
+
+Output:
+
+    13
+    7
+    30
+    3
+    1
+
+
+Here:
+
+    + = adds two values
+    - = subtracts one value from another
+    * = multiplies two values
+    / = divides one value by another
+    % = gives the remainder
+
+
+Example:
+
+    int a = 10;
+    int b = 3;
+
+    cout << a % b;
+
+
+Output:
+
+    1
+
+    Because 10 ÷ 3 gives remainder 1.
+
+
+Key Points:
+
+    1. Arithmetic operators are used for mathematical calculations.
+    2. +, -, *, / and % are the main arithmetic operators.
+    3. % gives the remainder after division.
+    4. Arithmetic operators can be used with variables and values.
+
+
+In simple words:
+
+    Arithmetic Operators = mathematical calculations karne ke liye
+    use hote hain.
+
+
+Exam Answer:
+
+Arithmetic operators are operators used to perform mathematical
+operations such as addition, subtraction, multiplication, division
+and modulus.

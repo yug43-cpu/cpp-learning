@@ -1,0 +1,74 @@
+ASSIGNMENT OPERATORS
+
+Definition:
+
+Assignment operators are used to assign a value to a variable.
+They can also perform an operation and assign the result
+to the same variable.
+
+
+Common Assignment Operators:
+
+    Operator    Meaning                 Example
+    ------------------------------------------------
+    =           Assign                  a = 10
+    +=          Add and assign          a += 5
+    -=          Subtract and assign     a -= 5
+    *=          Multiply and assign     a *= 5
+    /=          Divide and assign       a /= 5
+    %=          Modulus and assign      a %= 5
+
+
+Example:
+
+    int a = 10;
+
+    a += 5;
+
+    cout << a;
+
+
+Output:
+
+    15
+
+
+Here:
+
+    a = 10      → assigns 10 to a
+    a += 5      → a = a + 5
+    a becomes 15
+
+
+Example:
+
+    int a = 10;
+
+    a -= 3;
+
+    cout << a;
+
+
+Output:
+
+    7
+
+
+Key Points:
+
+    1. Assignment operators are used to assign values to variables.
+    2. = is the basic assignment operator.
+    3. +=, -=, *=, /= and %= are compound assignment operators.
+    4. They make calculations shorter and easier.
+
+
+In simple words:
+
+    Assignment Operator = variable ko value dene ya value update
+    karne ke liye use hota hai.
+
+
+Exam Answer:
+
+Assignment operators are used to assign values to variables and
+perform operations while assigning the result to the variable.
