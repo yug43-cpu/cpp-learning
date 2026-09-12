@@ -1,0 +1,73 @@
+LOGICAL OPERATORS
+
+Definition:
+
+Logical operators are used to combine two or more conditions.
+They return either true or false.
+
+
+Logical Operators:
+
+    Operator    Meaning       Example
+    -----------------------------------------
+    &&          Logical AND   a > 5 && b < 10
+    ||          Logical OR    a > 5 || b < 10
+    !           Logical NOT   !(a > 5)
+
+
+Truth Table:
+
+    A       B       A && B     A || B
+    ----------------------------------
+    true    true      true       true
+    true    false     false      true
+    false   true      false      true
+    false   false     false      false
+
+
+Example:
+
+    int a = 10;
+    int b = 5;
+
+    cout << (a > 5 && b < 10);
+
+
+Output:
+
+    1
+
+
+Here:
+
+    a > 5   = true
+    b < 10  = true
+    true && true = true
+
+
+Meaning:
+
+    && = true when both conditions are true
+    || = true when at least one condition is true
+    !  = reverses the result
+
+
+Key Points:
+
+    1. Logical operators are used to combine conditions.
+    2. They return true or false.
+    3. && means AND.
+    4. || means OR.
+    5. ! means NOT.
+
+
+In simple words:
+
+    Logical Operators = multiple conditions ko combine karne ke liye
+    use hote hain.
+
+
+Exam Answer:
+
+Logical operators are used to combine two or more conditions.
+The main logical operators in C++ are AND (&&), OR (||) and NOT (!).

@@ -1,0 +1,81 @@
+BITWISE OPERATORS
+
+Definition:
+
+Bitwise operators are used to perform operations on the individual
+bits of integer values.
+
+
+Bitwise Operators:
+
+    Operator    Meaning             Example
+    ------------------------------------------------
+    &           Bitwise AND         a & b
+    |           Bitwise OR          a | b
+    ^           Bitwise XOR         a ^ b
+    ~           Bitwise NOT         ~a
+    <<          Left Shift          a << 1
+    >>          Right Shift         a >> 1
+
+
+Example:
+
+    int a = 5;
+    int b = 3;
+
+    cout << (a & b);
+
+
+Binary values:
+
+    a = 5  → 0101
+    b = 3  → 0011
+
+    0101
+    0011
+    ----
+    0001
+
+    Output:
+    1
+
+
+Here:
+
+    &  = AND operation on bits
+    |  = OR operation on bits
+    ^  = XOR operation on bits
+    ~  = reverses the bits
+    << = shifts bits to the left
+    >> = shifts bits to the right
+
+
+Important:
+
+    5 & 3 = 1
+    5 | 3 = 7
+    5 ^ 3 = 6
+
+
+Key Points:
+
+    1. Bitwise operators work on individual bits.
+    2. They are mainly used with integer data types.
+    3. & means Bitwise AND.
+    4. | means Bitwise OR.
+    5. ^ means Bitwise XOR.
+    6. ~ means Bitwise NOT.
+    7. << and >> are shift operators.
+
+
+In simple words:
+
+    Bitwise Operators = numbers ke binary bits par operation
+    karne ke liye use hote hain.
+
+
+Exam Answer:
+
+Bitwise operators are used to perform operations on the individual
+bits of integer values. The main bitwise operators are &, |, ^, ~,
+<< and >>.

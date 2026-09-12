@@ -1,0 +1,82 @@
+OPERATOR PRECEDENCE
+
+Definition:
+
+Operator precedence determines the order in which operators are
+evaluated in an expression.
+
+Operators with higher precedence are evaluated first.
+
+
+Common Operator Precedence:
+
+    Priority    Operators              Meaning
+    ------------------------------------------------
+    1           ()                     Parentheses
+    2           *, /, %                Multiplication, Division, Modulus
+    3           +, -                   Addition, Subtraction
+    4           <, >, <=, >=           Comparison
+    5           ==, !=                 Equality
+    6           &&                     Logical AND
+    7           ||                     Logical OR
+    8           =, +=, -=, *=, /=      Assignment
+
+
+Example:
+
+    int result = 10 + 5 * 2;
+
+    First:
+    5 * 2 = 10
+
+    Then:
+    10 + 10 = 20
+
+
+Output:
+
+    20
+
+
+Why?
+
+    * has higher precedence than +.
+
+
+Example with parentheses:
+
+    int result = (10 + 5) * 2;
+
+
+Output:
+
+    30
+
+
+Here:
+
+    (10 + 5) is evaluated first because
+    parentheses have the highest precedence.
+
+
+Key Points:
+
+    1. Operator precedence decides the order of evaluation.
+    2. Higher precedence operators are evaluated first.
+    3. Parentheses () have the highest priority in normal expressions.
+    4. If operators have the same precedence, associativity decides
+       the order of evaluation.
+    5. Parentheses can be used to change the order of evaluation.
+
+
+In simple words:
+
+    Operator Precedence = kaunsa operator pehle calculate hoga,
+    ye decide karta hai.
+
+
+Exam Answer:
+
+Operator precedence is the rule that determines the order in which
+operators are evaluated in an expression. Operators with higher
+precedence are evaluated before operators with lower precedence.

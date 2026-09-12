@@ -1,0 +1,125 @@
+OPERATOR ASSOCIATIVITY
+
+Definition:
+
+Operator associativity determines the order in which operators with
+the same precedence are evaluated.
+
+It tells whether the expression is evaluated from left to right
+or from right to left.
+
+
+Types of Associativity:
+
+    1. Left-to-Right
+    2. Right-to-Left
+
+
+1. LEFT-TO-RIGHT ASSOCIATIVITY
+
+Most arithmetic, comparison and logical operators are evaluated
+from left to right.
+
+Example:
+
+    int result = 20 / 5 * 2;
+
+    First:
+    20 / 5 = 4
+
+    Then:
+    4 * 2 = 8
+
+
+Output:
+
+    8
+
+
+2. RIGHT-TO-LEFT ASSOCIATIVITY
+
+Assignment operators are evaluated from right to left.
+
+Example:
+
+    int a, b, c;
+
+    a = b = c = 10;
+
+
+Evaluation:
+
+    c = 10
+    b = c
+    a = b
+
+
+Result:
+
+    a = 10
+    b = 10
+    c = 10
+
+
+Common Associativity:
+
+    Operators                 Associativity
+    -----------------------------------------
+    *, /, %                   Left-to-Right
+    +, -                      Left-to-Right
+    <, >, <=, >=              Left-to-Right
+    ==, !=                    Left-to-Right
+    &&                        Left-to-Right
+    ||                        Left-to-Right
+    =, +=, -=, *=, /=         Right-to-Left
+    ?:                        Right-to-Left
+
+
+Difference between Precedence and Associativity:
+
+    Precedence:
+        Decides which operator is evaluated first.
+
+    Associativity:
+        Decides the direction of evaluation when operators
+        have the same precedence.
+
+
+Example:
+
+    10 + 5 * 2
+
+    Precedence:
+    * is evaluated before +.
+
+
+    20 / 5 * 2
+
+    Same precedence for / and *.
+
+    Associativity:
+    Left-to-right
+
+    So:
+    (20 / 5) * 2 = 8
+
+
+Key Points:
+
+    1. Associativity decides the direction of evaluation.
+    2. It is used when operators have the same precedence.
+    3. Most operators have left-to-right associativity.
+    4. Assignment operators have right-to-left associativity.
+
+
+In simple words:
+
+    Associativity = same priority wale operators me
+    kaunsa left se ya right se calculate hoga.
+
+
+Exam Answer:
+
+Operator associativity determines the direction in which operators
+with the same precedence are evaluated. It can be left-to-right
+or right-to-left.
