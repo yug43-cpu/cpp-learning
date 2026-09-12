@@ -66,21 +66,21 @@
 
 ---
 
-# 📌 04. Operators 🔄
+# 📌 04. Operators 
 
 * ✅ Arithmetic Operators
 * ✅ Assignment Operators
 * ✅ Comparison Operators
-* ⬜ Logical Operators
-* ⬜ Increment / Decrement
-* ⬜ Bitwise Operators
-* ⬜ Ternary Operator
-* ⬜ Operator Precedence
-* ⬜ Operator Associativity
+* ✅ Logical Operators
+* ✅ Increment / Decrement
+* ✅ Bitwise Operators
+* ✅ Ternary Operator
+* ✅ Operator Precedence
+* ✅ Operator Associativity
 
 ---
 
-# 📌 05. Conditional Statements
+# 📌 05. Conditional Statements🔄
 
 * ⬜ `if`
 * ⬜ `if-else`
