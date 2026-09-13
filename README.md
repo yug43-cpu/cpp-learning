@@ -80,21 +80,21 @@
 
 ---
 
-# 📌 05. Conditional Statements🔄
+# 📌 05. Conditional Statements
 
-* ⬜ `if`
-* ⬜ `if-else`
-* ⬜ `else-if`
-* ⬜ Nested `if`
-* ⬜ `switch`
-* ⬜ `case`
-* ⬜ `default`
-* ⬜ `break`
-* ⬜ Conditional / Ternary Operator
+* ✅ `if`
+* ✅ `if-else`
+* ✅ `else-if`
+* ✅ Nested `if`
+* ✅ `switch`
+* ✅ `case`
+* ✅ `default`
+* ✅ `break`
+* ✅ Conditional / Ternary Operator
 
 ---
 
-# 📌 06. Loops
+# 📌 06. Loops🔄
 
 * ⬜ `for`
 * ⬜ `while`
