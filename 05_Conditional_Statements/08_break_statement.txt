@@ -1,0 +1,86 @@
+BREAK STATEMENT
+
+Definition:
+
+The break statement is used to immediately stop the execution of
+a loop or switch statement and move the program control outside it.
+
+Syntax:
+
+    break;
+
+
+Example with switch:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int day = 2;
+
+        switch (day)
+        {
+            case 1:
+                cout << "Monday";
+                break;
+
+            case 2:
+                cout << "Tuesday";
+                break;
+
+            default:
+                cout << "Invalid day";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Tuesday
+
+
+Here:
+
+    break = stops the switch statement
+    case 2 = matches the value
+    break = exits the switch after executing case 2
+
+
+Example with loop:
+
+    for (int i = 1; i <= 5; i++)
+    {
+        if (i == 3)
+        {
+            break;
+        }
+
+        cout << i << " ";
+    }
+
+
+Output:
+
+    1 2
+
+
+Key Points:
+
+    1. break immediately stops a loop or switch.
+    2. It transfers control outside the loop or switch.
+    3. It is commonly used with switch statements and loops.
+    4. In switch, break prevents execution of the next case.
+
+
+In simple words:
+
+    break = loop ya switch ko turant stop karne ke liye use hota hai.
+
+
+Exam Answer:
+
+The break statement is used to terminate a loop or switch statement
+immediately and transfer control to the statement after it.

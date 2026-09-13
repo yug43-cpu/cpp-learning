@@ -1,0 +1,96 @@
+NESTED IF
+
+Definition:
+
+A nested if is an if statement placed inside another if statement.
+It is used when a second condition needs to be checked only after
+the first condition is true.
+
+Syntax:
+
+    if (condition1)
+    {
+        if (condition2)
+        {
+            // statements
+        }
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int age = 20;
+        int marks = 70;
+
+        if (age >= 18)
+        {
+            if (marks >= 40)
+            {
+                cout << "Eligible";
+            }
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Eligible
+
+
+Here:
+
+    First if:
+        age >= 18
+        Checks the first condition.
+
+    Second if:
+        marks >= 40
+        Checks the second condition only when the first condition
+        is true.
+
+
+Example:
+
+    int age = 20;
+
+    if (age >= 18)
+    {
+        cout << "Adult";
+
+        if (age >= 21)
+        {
+            cout << " and eligible";
+        }
+    }
+
+
+Output:
+
+    Adult
+
+
+Key Points:
+
+    1. Nested if means an if statement inside another if statement.
+    2. The inner if is checked only when the outer if is true.
+    3. Multiple levels of nested if can be used.
+    4. It is useful when one condition depends on another condition.
+
+
+In simple words:
+
+    Nested if = ek if ke andar dusra if.
+
+
+Exam Answer:
+
+A nested if is an if statement placed inside another if statement.
+It is used to check a second condition after the first condition
+is true.

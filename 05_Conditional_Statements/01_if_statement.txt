@@ -1,0 +1,77 @@
+IF STATEMENT
+
+Definition:
+
+The if statement is used to execute a block of code only when
+a given condition is true.
+
+Syntax:
+
+    if (condition)
+    {
+        // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int age = 20;
+
+        if (age >= 18)
+        {
+            cout << "You are eligible to vote.";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    You are eligible to vote.
+
+
+Here:
+
+    if = checks the condition
+    age >= 18 = condition
+    { } = block of code executed when condition is true
+
+
+Example:
+
+    int marks = 80;
+
+    if (marks >= 40)
+    {
+        cout << "Pass";
+    }
+
+
+Output:
+
+    Pass
+
+
+Key Points:
+
+    1. if is a conditional statement.
+    2. It checks whether a condition is true.
+    3. If the condition is true, the statements inside { } are executed.
+    4. If the condition is false, the statements inside { } are skipped.
+
+
+In simple words:
+
+    if = condition true hone par code execute karne ke liye use hota hai.
+
+
+Exam Answer:
+
+The if statement is a conditional statement used to execute a block
+of code when a specified condition is true.

@@ -1,0 +1,69 @@
+CASE STATEMENT
+
+Definition:
+
+The case statement is used inside a switch statement to define
+a specific value or option.
+
+When the value of the switch expression matches a case value,
+the statements inside that case are executed.
+
+
+Syntax:
+
+    switch (expression)
+    {
+        case value:
+            // statements
+            break;
+    }
+
+
+Example:
+
+    int day = 2;
+
+    switch (day)
+    {
+        case 1:
+            cout << "Monday";
+            break;
+
+        case 2:
+            cout << "Tuesday";
+            break;
+    }
+
+
+Output:
+
+    Tuesday
+
+
+Here:
+
+    case 1 = executes when day is 1
+    case 2 = executes when day is 2
+    break = stops the switch after the matching case
+
+
+Key Points:
+
+    1. case is used inside a switch statement.
+    2. Each case represents a possible value.
+    3. When a case matches, its statements are executed.
+    4. break is commonly used to stop execution after a case.
+    5. Multiple case statements can be used in one switch.
+
+
+In simple words:
+
+    case = switch ke andar ek specific value ke liye code define
+    karne ke liye use hota hai.
+
+
+Exam Answer:
+
+The case statement is used inside a switch statement to define
+different possible values. When the switch expression matches a
+case value, the statements of that case are executed.

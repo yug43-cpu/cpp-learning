@@ -1,0 +1,96 @@
+ELSE-IF STATEMENT
+
+Definition:
+
+The else-if statement is used to check multiple conditions.
+It checks the conditions one by one and executes the block of
+the first condition that is true.
+
+Syntax:
+
+    if (condition1)
+    {
+        // statements
+    }
+    else if (condition2)
+    {
+        // statements
+    }
+    else
+    {
+        // statements if all conditions are false
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int marks = 75;
+
+        if (marks >= 90)
+        {
+            cout << "Grade A";
+        }
+        else if (marks >= 60)
+        {
+            cout << "Grade B";
+        }
+        else if (marks >= 40)
+        {
+            cout << "Grade C";
+        }
+        else
+        {
+            cout << "Fail";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Grade B
+
+
+Here:
+
+    if = checks the first condition
+    else if = checks another condition
+    else = executes when all conditions are false
+
+
+How it works:
+
+    marks = 75
+
+    marks >= 90  → false
+    marks >= 60  → true
+
+    So, "Grade B" is printed.
+
+
+Key Points:
+
+    1. else-if is used to check multiple conditions.
+    2. Conditions are checked from top to bottom.
+    3. Only the first true condition is executed.
+    4. else is optional.
+    5. Multiple else-if statements can be used.
+
+
+In simple words:
+
+    else-if = ek ke baad ek multiple conditions check karne ke
+    liye use hota hai.
+
+
+Exam Answer:
+
+The else-if statement is used to check multiple conditions.
+The conditions are checked one by one, and the block of the first
+true condition is executed.

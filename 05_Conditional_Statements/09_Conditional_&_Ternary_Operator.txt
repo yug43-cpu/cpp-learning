@@ -1,0 +1,76 @@
+CONDITIONAL & TERNARY OPERATOR
+
+Definition:
+
+The conditional or ternary operator is used to choose one of two
+values based on a condition.
+
+It is called a ternary operator because it uses three operands.
+
+Syntax:
+
+    condition ? value_if_true : value_if_false;
+
+
+Example:
+
+    int age = 20;
+
+    string result = (age >= 18) ? "Adult" : "Minor";
+
+    cout << result;
+
+
+Output:
+
+    Adult
+
+
+Here:
+
+    age >= 18 = condition
+    ? = if condition is true
+    : = if condition is false
+    "Adult" = value if condition is true
+    "Minor" = value if condition is false
+
+
+Example:
+
+    int a = 10;
+    int b = 20;
+
+    int max = (a > b) ? a : b;
+
+    cout << max;
+
+
+Output:
+
+    20
+
+
+Key Points:
+
+    1. Ternary operator is also called the conditional operator.
+    2. It uses three operands.
+    3. It uses the ? and : symbols.
+    4. It is a short form of if-else.
+    5. It is useful for simple conditions.
+
+
+In simple words:
+
+    Ternary Operator = condition check karke do values me se
+    ek value choose karne ke liye use hota hai.
+
+
+Exam Answer:
+
+The conditional or ternary operator is used to select one of two
+values based on a condition. It is a short form of the if-else
+statement.
+
+Syntax:
+
+    condition ? value_if_true : value_if_false;

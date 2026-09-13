@@ -1,0 +1,100 @@
+SWITCH STATEMENT
+
+Definition:
+
+The switch statement is a conditional statement used to select
+one block of code from multiple options based on the value of
+an expression.
+
+
+Syntax:
+
+    switch (expression)
+    {
+        case value1:
+            // statements
+            break;
+
+        case value2:
+            // statements
+            break;
+
+        default:
+            // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int day = 2;
+
+        switch (day)
+        {
+            case 1:
+                cout << "Monday";
+                break;
+
+            case 2:
+                cout << "Tuesday";
+                break;
+
+            case 3:
+                cout << "Wednesday";
+                break;
+
+            default:
+                cout << "Invalid day";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Tuesday
+
+
+Here:
+
+    switch = checks the value
+    case = matches a specific value
+    break = stops the switch statement
+    default = executes when no case matches
+
+
+How it works:
+
+    day = 2
+
+    case 1 → no match
+    case 2 → match
+
+    So, "Tuesday" is printed and break stops the switch.
+
+
+Key Points:
+
+    1. switch is used to select one option from multiple choices.
+    2. case is used to define different values.
+    3. break is used to exit the switch.
+    4. default is executed when no case matches.
+    5. Multiple case statements can be used.
+
+
+In simple words:
+
+    switch = ek value ke basis par multiple options me se
+    ek option select karne ke liye use hota hai.
+
+
+Exam Answer:
+
+The switch statement is a conditional statement used to select and
+execute one block of code from multiple choices based on the value
+of an expression.

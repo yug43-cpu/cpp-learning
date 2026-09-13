@@ -1,0 +1,83 @@
+DEFAULT STATEMENT
+
+Definition:
+
+The default statement is used inside a switch statement.
+It is executed when none of the case values match the switch
+expression.
+
+
+Syntax:
+
+    switch (expression)
+    {
+        case value1:
+            // statements
+            break;
+
+        case value2:
+            // statements
+            break;
+
+        default:
+            // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int day = 5;
+
+        switch (day)
+        {
+            case 1:
+                cout << "Monday";
+                break;
+
+            case 2:
+                cout << "Tuesday";
+                break;
+
+            default:
+                cout << "Invalid day";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Invalid day
+
+
+Here:
+
+    case 1 = executes when day is 1
+    case 2 = executes when day is 2
+    default = executes when no case matches
+
+
+Key Points:
+
+    1. default is used inside a switch statement.
+    2. It executes when no case matches.
+    3. default is optional.
+    4. It is usually written at the end of the switch statement.
+    5. break is not required after default if it is the last statement.
+
+
+In simple words:
+
+    default = jab koi bhi case match na ho, tab ye execute hota hai.
+
+
+Exam Answer:
+
+The default statement is used inside a switch statement and is
+executed when none of the case values match the switch expression.

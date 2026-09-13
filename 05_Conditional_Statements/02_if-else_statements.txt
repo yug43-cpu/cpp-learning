@@ -1,0 +1,100 @@
+IF-ELSE STATEMENT
+
+Definition:
+
+The if-else statement is used to execute one block of code when
+a condition is true and another block of code when the condition
+is false.
+
+Syntax:
+
+    if (condition)
+    {
+        // statements if condition is true
+    }
+    else
+    {
+        // statements if condition is false
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int age;
+
+        cout << "Enter your age: ";
+        cin >> age;
+
+        if (age >= 18)
+        {
+            cout << "Eligible to vote";
+        }
+        else
+        {
+            cout << "Not eligible to vote";
+        }
+
+        return 0;
+    }
+
+
+Input:
+
+    20
+
+
+Output:
+
+    Eligible to vote
+
+
+Here:
+
+    if = checks the condition
+    age >= 18 = condition
+    else = executes when the condition is false
+
+
+Example:
+
+    int marks = 30;
+
+    if (marks >= 40)
+    {
+        cout << "Pass";
+    }
+    else
+    {
+        cout << "Fail";
+    }
+
+
+Output:
+
+    Fail
+
+
+Key Points:
+
+    1. if-else is a conditional statement.
+    2. if block executes when the condition is true.
+    3. else block executes when the condition is false.
+    4. Only one of the two blocks is executed.
+
+
+In simple words:
+
+    if = condition true
+    else = condition false
+
+
+Exam Answer:
+
+The if-else statement is a conditional statement used to execute
+one block of code when a condition is true and another block when
+the condition is false.
