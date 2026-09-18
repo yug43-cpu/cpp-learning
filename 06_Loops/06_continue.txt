@@ -1,0 +1,77 @@
+CONTINUE
+
+Definition:
+
+continue is a control statement used to skip the current iteration
+of a loop and move to the next iteration.
+
+Unlike break, continue does not stop the loop completely.
+
+
+Syntax:
+
+    continue;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        for(int i = 1; i <= 5; i++)
+        {
+            if(i == 3)
+            {
+                continue;
+            }
+
+            cout << i << endl;
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    1
+    2
+    4
+    5
+
+
+Here:
+
+    if(i == 3) = checks when i becomes 3
+    continue   = skips that iteration
+
+    When i = 3, cout is skipped.
+    The loop then continues with i = 4.
+
+
+Difference between break and continue:
+
+    break       = completely stops the loop
+    continue    = skips only the current iteration
+
+
+Key Points:
+
+    1. continue skips the current iteration.
+    2. It does not terminate the loop.
+    3. It can be used with for, while and do-while loops.
+    4. After continue, the loop moves to its next iteration.
+
+
+In simple words:
+
+    continue = current iteration ko skip karke next iteration
+    par jane ke liye use hota hai.
+
+
+Exam Answer:
+
+continue is a control statement used to skip the current
+iteration of a loop and continue with the next iteration.

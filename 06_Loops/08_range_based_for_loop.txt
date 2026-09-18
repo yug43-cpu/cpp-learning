@@ -1,0 +1,104 @@
+RANGE-BASED FOR LOOP
+
+Definition:
+
+A range-based for loop is used to easily access each element
+of an array, string, or other collection one by one.
+
+It was introduced in C++11.
+
+
+Syntax:
+
+    for(data_type variable : collection)
+    {
+        // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int numbers[] = {10, 20, 30, 40, 50};
+
+        for(int n : numbers)
+        {
+            cout << n << endl;
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    10
+    20
+    30
+    40
+    50
+
+
+Here:
+
+    numbers = array containing the values
+    n       = stores each element one by one
+    :       = range-based for operator
+
+    First → n = 10
+    Second → n = 20
+    Third → n = 30
+    Fourth → n = 40
+    Fifth → n = 50
+
+
+Example with String:
+
+    string name = "Yug";
+
+    for(char ch : name)
+    {
+        cout << ch << endl;
+    }
+
+
+Output:
+
+    Y
+    u
+    g
+
+
+Difference between Normal for and Range-based for:
+
+    Normal for loop
+        = Uses index and condition
+
+    Range-based for loop
+        = Directly accesses each element
+
+
+Key Points:
+
+    1. Range-based for loop accesses elements one by one.
+    2. It can be used with arrays, strings and collections.
+    3. It does not require an index variable.
+    4. It was introduced in C++11.
+    5. It makes iteration simpler and easier to read.
+
+
+In simple words:
+
+    Range-based for = collection ke har element ko ek-ek karke
+    access karne ke liye use hota hai.
+
+
+Exam Answer:
+
+A range-based for loop is a C++ loop used to iterate through
+each element of an array, string or collection without using
+an index explicitly.

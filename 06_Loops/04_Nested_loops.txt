@@ -1,0 +1,87 @@
+NESTED LOOPS
+
+Definition:
+
+A nested loop is a loop placed inside another loop.
+The inner loop runs completely for each iteration of the outer loop.
+
+
+Syntax:
+
+    for(initialization; condition; update)
+    {
+        for(initialization; condition; update)
+        {
+            // statements
+        }
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        for(int i = 1; i <= 3; i++)
+        {
+            for(int j = 1; j <= 3; j++)
+            {
+                cout << j << " ";
+            }
+
+            cout << endl;
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    1 2 3
+    1 2 3
+    1 2 3
+
+
+Here:
+
+    Outer loop (i) = controls the rows
+    Inner loop (j) = controls the values in each row
+
+    For every 1 iteration of the outer loop,
+    the inner loop runs completely.
+
+
+How Nested Loop Works:
+
+    Outer loop starts
+        ↓
+    Inner loop runs completely
+        ↓
+    Outer loop updates
+        ↓
+    Inner loop runs again
+        ↓
+    Repeat until outer loop condition becomes false
+
+
+Key Points:
+
+    1. A loop inside another loop is called a nested loop.
+    2. The inner loop executes for every iteration of the outer loop.
+    3. Nested loops are commonly used for patterns, tables and matrices.
+    4. Any type of loop can be nested inside another loop.
+
+
+In simple words:
+
+    Nested Loop = ek loop ke andar dusra loop.
+
+
+Exam Answer:
+
+A nested loop is a loop placed inside another loop.
+The inner loop executes completely for each iteration of
+the outer loop.

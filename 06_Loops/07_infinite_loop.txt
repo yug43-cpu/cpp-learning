@@ -1,0 +1,85 @@
+INFINITE LOOPS
+
+Definition:
+
+An infinite loop is a loop that continues running forever
+because its condition never becomes false.
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int i = 1;
+
+        while(i <= 5)
+        {
+            cout << i << endl;
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    1
+    1
+    1
+    1
+    1
+    ...
+    
+    The loop continues forever.
+
+
+Here:
+
+    i = 1       → value of i
+    i <= 5      → condition is always true
+    i is never updated → condition never becomes false
+
+
+Another Example:
+
+    while(true)
+    {
+        cout << "Hello";
+    }
+
+    Here, true is always true, so the loop runs forever.
+
+
+How to Stop an Infinite Loop:
+
+    Use break when a specific condition is reached.
+
+    while(true)
+    {
+        if(condition)
+        {
+            break;
+        }
+    }
+
+
+Key Points:
+
+    1. An infinite loop runs continuously.
+    2. It occurs when the loop condition never becomes false.
+    3. Forgetting to update the loop variable can cause an infinite loop.
+    4. break can be used to stop an infinite loop.
+
+
+In simple words:
+
+    Infinite Loop = aisa loop jo kabhi stop nahi hota.
+
+
+Exam Answer:
+
+An infinite loop is a loop that executes continuously because
+its condition never becomes false.

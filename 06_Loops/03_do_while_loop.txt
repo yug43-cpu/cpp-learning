@@ -1,0 +1,94 @@
+DO-WHILE LOOP
+
+Definition:
+
+A do-while loop is used to repeatedly execute a block of code
+as long as a specified condition is true.
+
+The do-while loop executes the code at least once because
+the condition is checked after the execution.
+
+
+Syntax:
+
+    do
+    {
+        // statements
+    }
+    while(condition);
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int i = 1;
+
+        do
+        {
+            cout << i << endl;
+            i++;
+        }
+        while(i <= 5);
+
+        return 0;
+    }
+
+
+Output:
+
+    1
+    2
+    3
+    4
+    5
+
+
+Here:
+
+    i = 1       → initialization
+    cout << i   → displays the value
+    i++         → increases i by 1
+    i <= 5      → condition
+
+
+How do-while Loop Works:
+
+    Step 1 → Initialize the variable
+    Step 2 → Execute the statements
+    Step 3 → Update the variable
+    Step 4 → Check the condition
+    Step 5 → Repeat if the condition is true
+
+
+Difference between while and do-while:
+
+    while loop       = condition is checked before execution
+    do-while loop    = condition is checked after execution
+
+    while            = may execute zero times
+    do-while         = executes at least once
+
+
+Key Points:
+
+    1. do-while loop executes the code at least once.
+    2. The condition is checked after execution.
+    3. It ends with a semicolon after while(condition);
+    4. It is useful when the code must execute at least once.
+
+
+In simple words:
+
+    do-while loop = pehle code execute hota hai, phir condition
+    check hoti hai.
+
+
+Exam Answer:
+
+A do-while loop is a control statement that executes a block
+of statements at least once and then repeats it as long as
+the given condition is true.

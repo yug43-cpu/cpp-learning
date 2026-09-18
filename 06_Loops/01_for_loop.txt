@@ -1,0 +1,83 @@
+FOR LOOP
+
+Definition:
+
+A for loop is used to repeat a block of code a specific number
+of times.
+
+It is useful when the number of repetitions is known.
+
+
+Syntax:
+
+    for(initialization; condition; update)
+    {
+        // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        for(int i = 1; i <= 5; i++)
+        {
+            cout << i << endl;
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    1
+    2
+    3
+    4
+    5
+
+
+Here:
+
+    initialization = int i = 1
+                     Starts the loop.
+
+    condition = i <= 5
+                Loop runs while this condition is true.
+
+    update = i++
+             Increases i by 1 after each iteration.
+
+
+How for Loop Works:
+
+    Step 1 → i = 1
+    Step 2 → Check i <= 5
+    Step 3 → Execute the statements
+    Step 4 → i++
+    Step 5 → Repeat until condition becomes false
+
+
+Key Points:
+
+    1. for loop is used to repeat statements.
+    2. It has three parts: initialization, condition and update.
+    3. It is commonly used when the number of repetitions is known.
+    4. The loop stops when the condition becomes false.
+
+
+In simple words:
+
+    for loop = kisi code ko fixed number of times repeat karne
+    ke liye use hota hai.
+
+
+Exam Answer:
+
+A for loop is a control statement used to repeatedly execute
+a block of statements as long as a specified condition is true.
+It is generally used when the number of iterations is known.

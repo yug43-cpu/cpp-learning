@@ -1,0 +1,76 @@
+BREAK
+
+Definition:
+
+break is a control statement used to immediately stop a loop
+or switch statement.
+
+When break is executed, the program comes out of the loop
+and continues with the statement after the loop.
+
+
+Syntax:
+
+    break;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        for(int i = 1; i <= 5; i++)
+        {
+            if(i == 3)
+            {
+                break;
+            }
+
+            cout << i << endl;
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    1
+    2
+
+
+Here:
+
+    if(i == 3) = checks when i becomes 3
+    break      = stops the loop immediately
+
+    The loop does not print 3, 4 or 5.
+
+
+How break Works:
+
+    1 → i = 1 → print 1
+    2 → i = 2 → print 2
+    3 → i = 3 → break → loop stops
+
+
+Key Points:
+
+    1. break immediately terminates the loop.
+    2. It transfers control to the statement after the loop.
+    3. It can be used with for, while and do-while loops.
+    4. It is also used with switch statements.
+
+
+In simple words:
+
+    break = loop ko turant stop karne ke liye use hota hai.
+
+
+Exam Answer:
+
+break is a control statement used to immediately terminate
+a loop or switch statement and transfer control to the statement
+following it.
