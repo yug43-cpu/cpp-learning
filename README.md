@@ -126,15 +126,15 @@
 
 # 📌 08. Arrays
 
-* ⬜ 1D Arrays
-* ⬜ 2D Arrays
-* ⬜ Multidimensional Arrays
-* ⬜ Array Initialization
-* ⬜ Traversing Arrays
-* ⬜ Searching in Arrays
-* ⬜ Sorting Arrays
-* ⬜ Passing Arrays to Functions
-* ⬜ Character Arrays
+* ✅ 1D Arrays
+* ✅ 2D Arrays
+* ✅ Multidimensional Arrays
+* ✅ Array Initialization
+* ✅ Traversing Arrays
+* ✅ Searching in Arrays
+* ✅ Sorting Arrays
+* ✅ Passing Arrays to Functions
+* ✅ Character Arrays
 
 ---
 
