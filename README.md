@@ -94,16 +94,16 @@
 
 ---
 
-# 📌 06. Loops🔄
+# 📌 06. Loops
 
-* ⬜ `for`
-* ⬜ `while`
-* ⬜ `do-while`
-* ⬜ Nested Loops
-* ⬜ `break`
-* ⬜ `continue`
-* ⬜ Infinite Loops
-* ⬜ Range-based `for`
+* ✅ `for`
+* ✅ `while`
+* ✅ `do-while`
+* ✅ Nested Loops
+* ✅ `break`
+* ✅ `continue`
+* ✅ Infinite Loops
+* ✅ Range-based `for`
 
 ---
 
