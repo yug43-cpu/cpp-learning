@@ -1,0 +1,92 @@
+ARRAY INITIALIZATION
+
+Definition:
+
+Array initialization means giving initial values to the elements
+of an array when the array is created.
+
+
+Syntax:
+
+    data_type array_name[size] = {value1, value2, value3};
+
+
+Types of Array Initialization:
+
+    Method                  Example
+    ------------------------------------------------------------
+    With size               int a[5] = {10, 20, 30, 40, 50};
+    Without size            int a[] = {10, 20, 30, 40, 50};
+    Partial initialization  int a[5] = {10, 20};
+
+
+Example:
+
+    int marks[5] = {80, 75, 90, 85, 70};
+
+
+Here:
+
+    int = data type
+    marks = array name
+    5 = array size
+    {80, 75, 90, 85, 70} = initial values
+
+
+Partial Initialization:
+
+    int numbers[5] = {10, 20};
+
+
+Here:
+
+    numbers[0] = 10
+    numbers[1] = 20
+    numbers[2] = 0
+    numbers[3] = 0
+    numbers[4] = 0
+
+    Remaining elements are automatically initialized to 0.
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int numbers[] = {10, 20, 30, 40, 50};
+
+        for(int i = 0; i < 5; i++)
+        {
+            cout << numbers[i] << " ";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    10 20 30 40 50
+
+
+Key Points:
+
+    1. Array initialization means assigning initial values to an array.
+    2. Values are written inside curly braces { }.
+    3. The array size can be specified or automatically determined.
+    4. If fewer values are given, remaining elements become 0.
+
+
+In simple words:
+
+    Array Initialization = array banate time uske elements ko
+    starting values dena.
+
+
+Exam Answer:
+
+Array initialization is the process of assigning initial values
+to the elements of an array when the array is declared.
