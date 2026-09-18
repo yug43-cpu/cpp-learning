@@ -1,0 +1,113 @@
+2D ARRAYS
+
+Definition:
+
+A 2D (two-dimensional) array is a collection of elements of the
+same data type arranged in rows and columns.
+
+Each element is accessed using two index numbers:
+one for the row and one for the column.
+
+
+Syntax:
+
+    data_type array_name[rows][columns];
+
+
+Example:
+
+    int matrix[2][3] = {
+        {10, 20, 30},
+        {40, 50, 60}
+    };
+
+
+Here:
+
+    int = data type
+    matrix = array name
+    2 = number of rows
+    3 = number of columns
+
+    Matrix:
+
+          Column
+          0    1    2
+        ----------------
+    0   | 10   20   30
+    1   | 40   50   60
+
+
+Accessing Array Elements:
+
+    cout << matrix[0][0];
+    cout << matrix[1][2];
+
+
+Output:
+
+    10
+    60
+
+
+Here:
+
+    matrix[0][0] = 10
+    matrix[1][2] = 60
+
+    First index  = Row
+    Second index = Column
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int matrix[2][3] = {
+            {10, 20, 30},
+            {40, 50, 60}
+        };
+
+        for(int i = 0; i < 2; i++)
+        {
+            for(int j = 0; j < 3; j++)
+            {
+                cout << matrix[i][j] << " ";
+            }
+
+            cout << endl;
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    10 20 30
+    40 50 60
+
+
+Key Points:
+
+    1. A 2D array stores elements in rows and columns.
+    2. All elements must have the same data type.
+    3. It uses two indexes: row and column.
+    4. Indexing starts from 0.
+    5. 2D arrays are commonly used to represent matrices and tables.
+
+
+In simple words:
+
+    2D Array = values ko rows aur columns ke form me store
+    karne ke liye use hota hai.
+
+
+Exam Answer:
+
+A two-dimensional array is a collection of elements of the same
+data type arranged in rows and columns. Each element is accessed
+using two indexes: row index and column index.
