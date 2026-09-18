@@ -109,18 +109,18 @@
 
 # 📌 07. Functions
 
-* ⬜ Function Declaration
-* ⬜ Function Definition
-* ⬜ Function Calling
-* ⬜ Parameters
-* ⬜ Arguments
-* ⬜ Return Values
-* ⬜ `void` Functions
-* ⬜ Default Arguments
-* ⬜ Function Overloading
-* ⬜ Inline Functions
-* ⬜ Recursion
-* ⬜ Lambda Functions
+* ✅ Function Declaration
+* ✅ Function Definition
+* ✅ Function Calling
+* ✅ Parameters
+* ✅ Arguments
+* ✅ Return Values
+* ✅ `void` Functions
+* ✅ Default Arguments
+* ✅ Function Overloading
+* ✅ Inline Functions
+* ✅ Recursion
+* ✅ Lambda Functions
 
 ---
 
