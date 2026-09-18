@@ -2,7 +2,7 @@
 
 > My complete C++ learning journey — from fundamentals to advanced C++, DSA, problem solving and projects.
 
-**Legend:**
+**PROGRESS:**
 ✅ Completed
 🔄 Currently Learning
 ⬜ Not Started
