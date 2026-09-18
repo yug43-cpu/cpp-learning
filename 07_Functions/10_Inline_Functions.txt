@@ -1,0 +1,78 @@
+INLINE FUNCTIONS
+
+Definition:
+
+An inline function is a function in which the compiler may replace
+the function call with the actual function code during compilation.
+
+It is mainly used for small and simple functions.
+
+
+Syntax:
+
+    inline return_type function_name(parameters)
+    {
+        // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    inline int square(int n)
+    {
+        return n * n;
+    }
+
+    int main()
+    {
+        cout << square(5);
+
+        return 0;
+    }
+
+
+Output:
+
+    25
+
+
+Here:
+
+    inline = keyword used to declare an inline function
+    square = function name
+    n = parameter
+    square(5) = function call
+
+
+How Inline Function Works:
+
+    Normal Function:
+        Function call → Function executes → Returns result
+
+    Inline Function:
+        Function call → Compiler may insert function code directly
+
+
+Key Points:
+
+    1. inline is used to declare an inline function.
+    2. It is mainly suitable for small and simple functions.
+    3. It can reduce function call overhead.
+    4. The compiler decides whether to actually inline the function.
+    5. Large or complex functions are generally not suitable for inlining.
+
+
+In simple words:
+
+    Inline Function = small function jiska code compiler
+    function call ki jagah directly use kar sakta hai.
+
+
+Exam Answer:
+
+An inline function is a function declared with the inline keyword
+in which the compiler may replace the function call with the actual
+function code to reduce function call overhead.

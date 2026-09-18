@@ -1,0 +1,91 @@
+FUNCTION DEFINITION
+
+Definition:
+
+Function definition is the actual implementation of a function.
+It contains the statements or code that perform the required task.
+
+
+Syntax:
+
+    return_type function_name(parameter_list)
+    {
+        // function body
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int add(int a, int b)
+    {
+        return a + b;
+    }
+
+    int main()
+    {
+        cout << add(10, 20);
+
+        return 0;
+    }
+
+
+Output:
+
+    30
+
+
+Here:
+
+    int = return type
+    add = function name
+    int a, int b = parameters
+    { } = function body
+    return a + b = returns the result
+
+
+Function Definition Contains:
+
+    Return Type
+        ↓
+    Function Name
+        ↓
+    Parameters
+        ↓
+    Function Body
+
+
+Difference between Function Declaration and Definition:
+
+    Function Declaration
+        = Tells the compiler about the function.
+        = Ends with semicolon (;).
+        = Does not contain the function body.
+
+    Function Definition
+        = Contains the actual code of the function.
+        = Contains the function body.
+        = Does not end with semicolon after the function body.
+
+
+Key Points:
+
+    1. Function definition contains the actual implementation.
+    2. It contains the function body.
+    3. It performs the required task.
+    4. A function can be called from main() or another function.
+
+
+In simple words:
+
+    Function Definition = function ke andar actual code likhna
+    jo required task perform karta hai.
+
+
+Exam Answer:
+
+A function definition is the actual implementation of a function
+that contains the function body and statements required to perform
+a specific task.

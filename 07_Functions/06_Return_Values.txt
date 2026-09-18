@@ -1,0 +1,106 @@
+RETURN VALUES
+
+Definition:
+
+A return value is the value that a function sends back to the
+place where the function was called.
+
+The return keyword is used to return a value from a function.
+
+
+Syntax:
+
+    return_type function_name(parameters)
+    {
+        return value;
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int add(int a, int b)
+    {
+        return a + b;
+    }
+
+    int main()
+    {
+        int result = add(10, 20);
+
+        cout << result;
+
+        return 0;
+    }
+
+
+Output:
+
+    30
+
+
+Here:
+
+    int = return type
+    add() = function
+    a + b = calculation
+    return a + b = returns the result
+    result = stores the returned value
+
+
+Return Types:
+
+    Return Type    Meaning
+    --------------------------------
+    int            Returns an integer
+    float          Returns a decimal value
+    double         Returns a decimal value
+    char           Returns a character
+    string         Returns text
+    void           Does not return a value
+
+
+Example:
+
+    int square(int n)
+    {
+        return n * n;
+    }
+
+    int result = square(5);
+
+
+Output:
+
+    25
+
+
+Here:
+
+    square(5) = function call
+    5         = argument
+    n         = parameter
+    n * n     = 5 * 5
+    return    = sends 25 back to result
+
+
+Key Points:
+
+    1. return is used to send a value back from a function.
+    2. The return type must match the type of value being returned.
+    3. A function can return only one value directly.
+    4. void is used when a function does not return a value.
+
+
+In simple words:
+
+    Return Value = function se result wapas receive karna.
+
+
+Exam Answer:
+
+A return value is the value returned by a function to the place
+where the function was called. The return statement is used to
+send the value back.

@@ -1,0 +1,92 @@
+ARGUMENTS
+
+Definition:
+
+Arguments are the actual values passed to a function when the
+function is called.
+
+Arguments are used to provide data to the parameters of a function.
+
+
+Syntax:
+
+    function_name(value1, value2);
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int add(int a, int b)
+    {
+        return a + b;
+    }
+
+    int main()
+    {
+        cout << add(10, 20);
+
+        return 0;
+    }
+
+
+Output:
+
+    30
+
+
+Here:
+
+    add(10, 20) = function call
+    10 and 20   = arguments
+    a and b     = parameters
+
+    10 is passed to a
+    20 is passed to b
+
+
+Parameters vs Arguments:
+
+    Parameters                 Arguments
+    ------------------------------------------------
+    Variables in function      Actual values passed
+    definition                 during function call
+
+    Example: a, b              Example: 10, 20
+
+
+Example:
+
+    int multiply(int x, int y)
+    {
+        return x * y;
+    }
+
+    multiply(5, 4);
+
+
+Here:
+
+    x, y = parameters
+    5, 4 = arguments
+
+
+Key Points:
+
+    1. Arguments are actual values passed to a function.
+    2. They are written when the function is called.
+    3. Arguments are passed to the corresponding parameters.
+    4. A function can receive one or more arguments.
+
+
+In simple words:
+
+    Arguments = function call ke time function ko diye gaye
+    actual values.
+
+
+Exam Answer:
+
+Arguments are the actual values passed to a function when it is
+called. They are used to provide values to the function parameters.

@@ -1,0 +1,92 @@
+FUNCTION CALLING
+
+Definition:
+
+Function calling means calling or invoking a function to execute
+the code written inside its function body.
+
+A function is called using its function name followed by parentheses.
+
+
+Syntax:
+
+    function_name();
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    void greet()
+    {
+        cout << "Hello Yug";
+    }
+
+    int main()
+    {
+        greet();
+
+        return 0;
+    }
+
+
+Output:
+
+    Hello Yug
+
+
+Here:
+
+    greet() = function call
+    greet   = function name
+    ()      = parentheses used for calling the function
+
+    When greet() is called, the code inside the greet() function
+    is executed.
+
+
+Function Calling with Arguments:
+
+    void add(int a, int b)
+    {
+        cout << a + b;
+    }
+
+    int main()
+    {
+        add(10, 20);
+
+        return 0;
+    }
+
+
+Output:
+
+    30
+
+
+Here:
+
+    add(10, 20) = function call
+    10, 20      = arguments passed to the function
+
+
+Key Points:
+
+    1. Function calling is used to execute a function.
+    2. A function is called using its name and parentheses.
+    3. Arguments can be passed while calling a function.
+    4. A function can be called multiple times.
+
+
+In simple words:
+
+    Function Calling = function ko execute karne ke liye usko
+    call karna.
+
+
+Exam Answer:
+
+Function calling is the process of invoking a function to execute
+the statements written inside its function body.

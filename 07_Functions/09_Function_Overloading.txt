@@ -1,0 +1,97 @@
+FUNCTION OVERLOADING
+
+Definition:
+
+Function overloading means defining multiple functions with the
+same name but different parameters.
+
+The difference can be in the number or type of parameters.
+
+
+Syntax:
+
+    return_type function_name(parameter1)
+    {
+        // statements
+    }
+
+    return_type function_name(parameter1, parameter2)
+    {
+        // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int add(int a, int b)
+    {
+        return a + b;
+    }
+
+    int add(int a, int b, int c)
+    {
+        return a + b + c;
+    }
+
+    int main()
+    {
+        cout << add(10, 20) << endl;
+        cout << add(10, 20, 30);
+
+        return 0;
+    }
+
+
+Output:
+
+    30
+    60
+
+
+Here:
+
+    add(int, int)       = function with 2 parameters
+    add(int, int, int)  = function with 3 parameters
+
+    Both functions have the same name "add",
+    but their parameters are different.
+
+
+Types of Function Overloading:
+
+    Difference in:
+    
+    1. Number of parameters
+    2. Type of parameters
+
+
+Example:
+
+    int add(int a, int b);
+    int add(int a, int b, int c);
+
+    float add(float a, float b);
+
+
+Key Points:
+
+    1. Function overloading allows multiple functions with the same name.
+    2. Functions must have different parameter lists.
+    3. It is an example of compile-time polymorphism.
+    4. Changing only the return type is NOT function overloading.
+
+
+In simple words:
+
+    Function Overloading = same function name, but different
+    parameters.
+
+
+Exam Answer:
+
+Function overloading is a feature of C++ in which multiple functions
+have the same name but different parameter lists. It is an example
+of compile-time polymorphism.

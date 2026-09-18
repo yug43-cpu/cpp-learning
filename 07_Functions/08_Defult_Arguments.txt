@@ -1,0 +1,109 @@
+DEFAULT ARGUMENTS
+
+Definition:
+
+Default arguments are values assigned to parameters in a function
+declaration or definition.
+
+If no value is provided for that parameter during the function call,
+the default value is automatically used.
+
+
+Syntax:
+
+    return_type function_name(parameter = default_value)
+    {
+        // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    void greet(string name = "Yug")
+    {
+        cout << "Hello " << name;
+    }
+
+    int main()
+    {
+        greet();
+
+        return 0;
+    }
+
+
+Output:
+
+    Hello Yug
+
+
+Here:
+
+    name = parameter
+    "Yug" = default argument
+    greet() = no argument is passed
+    "Yug" is automatically used
+
+
+Example with Argument:
+
+    greet("Rahul");
+
+
+Output:
+
+    Hello Rahul
+
+
+Here:
+
+    "Rahul" is passed, so the default value "Yug" is not used.
+
+
+How Default Arguments Work:
+
+    greet()
+        → Uses default value "Yug"
+
+    greet("Rahul")
+        → Uses the given value "Rahul"
+
+
+Key Points:
+
+    1. Default arguments provide a default value to parameters.
+    2. They are used when no argument is passed.
+    3. If an argument is provided, the given value is used.
+    4. Default arguments are generally specified from right to left
+       when there are multiple parameters.
+
+
+Example:
+
+    void display(int a, int b = 10)
+    {
+        cout << a << " " << b;
+    }
+
+    display(5);
+
+
+Output:
+
+    5 10
+
+
+In simple words:
+
+    Default Argument = agar function call me value nahi di,
+    to parameter ki default value automatically use hoti hai.
+
+
+Exam Answer:
+
+Default arguments are values assigned to function parameters that
+are automatically used when no argument is provided for those
+parameters during the function call.

@@ -1,0 +1,85 @@
+LAMBDA FUNCTIONS
+
+Definition:
+
+A lambda function is an anonymous function that can be written
+directly in a program without giving it a function name.
+
+It is mainly used for small and simple tasks.
+
+
+Syntax:
+
+    [capture](parameters)
+    {
+        // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        auto add = [](int a, int b)
+        {
+            return a + b;
+        };
+
+        cout << add(10, 20);
+
+        return 0;
+    }
+
+
+Output:
+
+    30
+
+
+Here:
+
+    [] = capture clause
+    (int a, int b) = parameters
+    return a + b = returns the result
+    auto add = = stores the lambda function in a variable
+    add(10, 20) = function call
+
+
+Example without Parameters:
+
+    auto greet = []()
+    {
+        cout << "Hello";
+    };
+
+    greet();
+
+
+Output:
+
+    Hello
+
+
+Key Points:
+
+    1. Lambda functions are anonymous functions.
+    2. They do not require a function name when created.
+    3. They are useful for small and simple operations.
+    4. They were introduced in C++11.
+    5. Lambda functions can have parameters and return values.
+
+
+In simple words:
+
+    Lambda Function = naam ke bina banaya gaya small function
+    jo directly use kiya ja sakta hai.
+
+
+Exam Answer:
+
+A lambda function is an anonymous function in C++ that can be
+defined directly in an expression and is mainly used for small
+and simple operations.

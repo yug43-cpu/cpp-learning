@@ -1,0 +1,92 @@
+PARAMETERS
+
+Definition:
+
+Parameters are variables written inside the parentheses of a
+function definition. They are used to receive values passed
+to the function.
+
+
+Syntax:
+
+    return_type function_name(data_type parameter1, data_type parameter2)
+    {
+        // function body
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int add(int a, int b)
+    {
+        return a + b;
+    }
+
+    int main()
+    {
+        cout << add(10, 20);
+
+        return 0;
+    }
+
+
+Output:
+
+    30
+
+
+Here:
+
+    a and b = parameters
+    int     = data type of parameters
+    10 and 20 = arguments passed during function calling
+
+    int add(int a, int b)
+    = a and b are parameters.
+
+
+Parameters vs Arguments:
+
+    Parameters
+        = Variables defined in the function.
+        = Receive values from the function call.
+
+    Arguments
+        = Actual values passed during the function call.
+
+
+Example:
+
+    int add(int a, int b)
+    {
+        return a + b;
+    }
+
+    add(10, 20);
+
+
+    a, b       = Parameters
+    10, 20     = Arguments
+
+
+Key Points:
+
+    1. Parameters are used to receive values in a function.
+    2. They are declared inside the function parentheses.
+    3. A function can have one or more parameters.
+    4. Parameters have a data type and a name.
+
+
+In simple words:
+
+    Parameters = function ke andar banaye gaye variables jo
+    function call se values receive karte hain.
+
+
+Exam Answer:
+
+Parameters are variables declared in a function definition that
+receive values passed to the function when it is called.

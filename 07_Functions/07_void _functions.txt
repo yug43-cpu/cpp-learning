@@ -1,0 +1,101 @@
+VOID FUNCTIONS
+
+Definition:
+
+A void function is a function that does not return any value.
+It uses the keyword void as its return type.
+
+
+Syntax:
+
+    void function_name(parameters)
+    {
+        // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    void greet()
+    {
+        cout << "Hello Yug";
+    }
+
+    int main()
+    {
+        greet();
+
+        return 0;
+    }
+
+
+Output:
+
+    Hello Yug
+
+
+Here:
+
+    void = function does not return a value
+    greet = function name
+    () = no parameters
+    greet() = function call
+
+
+Example with Parameters:
+
+    void display(int age)
+    {
+        cout << "Age: " << age;
+    }
+
+    int main()
+    {
+        display(20);
+
+        return 0;
+    }
+
+
+Output:
+
+    Age: 20
+
+
+Here:
+
+    age = parameter
+    20 = argument
+    display(20) = function call
+
+
+Difference:
+
+    int Function
+        = Returns a value
+
+    void Function
+        = Does not return a value
+
+
+Key Points:
+
+    1. A void function does not return any value.
+    2. void is used as the return type.
+    3. It can have parameters.
+    4. It can perform a task without returning a result.
+
+
+In simple words:
+
+    void function = aisa function jo koi value return nahi karta,
+    sirf required task perform karta hai.
+
+
+Exam Answer:
+
+A void function is a function that does not return any value.
+The keyword void is used as its return type.

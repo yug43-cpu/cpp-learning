@@ -1,0 +1,82 @@
+FUNCTION DECLARATION
+
+Definition:
+
+Function declaration is used to tell the compiler about a function
+before the function is used or called.
+
+It specifies the function name, return type and parameters.
+
+
+Syntax:
+
+    return_type function_name(parameter_list);
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    // Function declaration
+    int add(int, int);
+
+    int main()
+    {
+        cout << add(10, 20);
+
+        return 0;
+    }
+
+    // Function definition
+    int add(int a, int b)
+    {
+        return a + b;
+    }
+
+
+Output:
+
+    30
+
+
+Here:
+
+    int = return type
+    add = function name
+    int, int = parameter types
+    ; = ends the function declaration
+
+    int add(int, int);
+    = Function Declaration
+
+
+Difference:
+
+    Function Declaration
+        = Tells the compiler about the function.
+
+    Function Definition
+        = Contains the actual code of the function.
+
+
+Key Points:
+
+    1. Function declaration tells the compiler about a function.
+    2. It includes the return type, function name and parameters.
+    3. It ends with a semicolon (;).
+    4. It is usually written before main() when the function
+       is defined after main().
+
+
+In simple words:
+
+    Function Declaration = compiler ko pehle se batana ki function
+    ka naam, return type aur parameters kya hain.
+
+
+Exam Answer:
+
+A function declaration is a statement that tells the compiler
+about the name, return type and parameters of a function before
+the function is used.

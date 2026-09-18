@@ -1,0 +1,110 @@
+RECURSION
+
+Definition:
+
+Recursion is a process in which a function calls itself repeatedly
+to solve a problem.
+
+A recursive function must have a base condition to stop the recursion.
+
+
+Syntax:
+
+    return_type function_name(parameters)
+    {
+        if(condition)
+        {
+            return value;
+        }
+
+        function_name(parameters);
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    void count(int n)
+    {
+        if(n == 0)
+        {
+            return;
+        }
+
+        cout << n << endl;
+        count(n - 1);
+    }
+
+    int main()
+    {
+        count(5);
+
+        return 0;
+    }
+
+
+Output:
+
+    5
+    4
+    3
+    2
+    1
+
+
+Here:
+
+    count(5) = first function call
+    count(n - 1) = function calls itself
+    n == 0 = base condition
+    return = stops the recursion
+
+
+How Recursion Works:
+
+    count(5)
+        ↓
+    count(4)
+        ↓
+    count(3)
+        ↓
+    count(2)
+        ↓
+    count(1)
+        ↓
+    count(0)
+        ↓
+    Stop
+
+
+Important Parts:
+
+    Base Condition
+        = Condition that stops the recursion.
+
+    Recursive Call
+        = Function calling itself.
+
+
+Key Points:
+
+    1. Recursion means a function calling itself.
+    2. A recursive function must have a base condition.
+    3. Without a proper stopping condition, it may create
+       an infinite recursion.
+    4. Recursion is commonly used in factorial, Fibonacci,
+       tree and divide-and-conquer problems.
+
+
+In simple words:
+
+    Recursion = function ka khud ko baar-baar call karna,
+    jab tak stopping condition true nahi ho jaati.
+
+
+Exam Answer:
+
+Recursion is a programming technique in which a function calls
+itself repeatedly until a specified base condition is reached.
