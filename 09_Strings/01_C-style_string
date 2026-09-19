@@ -1,0 +1,98 @@
+C-STYLE STRINGS
+
+Definition:
+
+A C-style string is a sequence of characters stored in a character
+array and terminated by a null character '\0'.
+
+C-style strings are commonly used to store and work with text in C++.
+
+
+Syntax:
+
+    char string_name[size];
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        char name[] = "Yug";
+
+        cout << name;
+
+        return 0;
+    }
+
+
+Output:
+
+    Yug
+
+
+Here:
+
+    char = data type used to store characters
+    name = character array
+    "Yug" = C-style string
+    '\0' = null character that marks the end of the string
+
+
+Memory Representation:
+
+    Y    u    g    \0
+    0    1    2     3
+
+    The compiler automatically adds '\0' at the end of
+    a string written inside double quotes.
+
+
+Accessing Characters:
+
+    char name[] = "Yug";
+
+    cout << name[0];
+    cout << name[1];
+    cout << name[2];
+
+
+Output:
+
+    Y
+    u
+    g
+
+
+Common C-Style String Functions:
+
+    Function       Purpose
+    ---------------------------------------------
+    strlen()       Finds the length of a string
+    strcpy()       Copies one string to another
+    strcat()       Joins two strings
+    strcmp()       Compares two strings
+
+
+Key Points:
+
+    1. C-style strings are stored in character arrays.
+    2. They are terminated by the null character '\0'.
+    3. Indexing starts from 0.
+    4. String literals are written inside double quotes.
+    5. Common string functions are available through <cstring>.
+
+
+In simple words:
+
+    C-style String = characters stored in a char array and ending
+    with '\0'.
+
+
+Exam Answer:
+
+A C-style string is a sequence of characters stored in a character
+array and terminated by a null character '\0'. It is used to store
+and manipulate text in C and C++ programs.
