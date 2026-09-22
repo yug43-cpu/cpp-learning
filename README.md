@@ -138,22 +138,22 @@
 
 ---
 
-# 📌 09. Strings🔄
+# 📌 09. Strings
 
-* ⬜ C-style Strings
-* ⬜ `std::string`
-* ⬜ String Input
-* ⬜ String Length
-* ⬜ String Concatenation
-* ⬜ String Comparison
-* ⬜ String Searching
-* ⬜ String Substring
-* ⬜ String Modification
-* ⬜ `stringstream`
+* ✅ C-style Strings
+* ✅ `std::string`
+* ✅ String Input
+* ✅ String Length
+* ✅ String Concatenation
+* ✅ String Comparison
+* ✅ String Searching
+* ✅ String Substring
+* ✅ String Modification
+* ✅ `stringstream`
 
 ---
 
-# 📌 10. Pointers
+# 📌 10. Pointers🔄
 
 * ⬜ What is Memory?
 * ⬜ Memory Addresses
