@@ -1,0 +1,106 @@
+STRING LENGTH
+
+Definition:
+
+String length means finding the total number of characters in a
+string.
+
+In C++, the length() or size() function is used to find the length
+of a std::string.
+
+
+Syntax:
+
+    string_name.length();
+
+    string_name.size();
+
+
+Example:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string name = "Yug";
+
+        cout << "String Length: " << name.length();
+
+        return 0;
+    }
+
+
+Output:
+
+    String Length: 3
+
+
+Here:
+
+    string = data type used to store text
+    name = string variable
+    length() = returns the number of characters
+    "Yug" = contains 3 characters
+
+
+Example with Spaces:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string message = "Hello World";
+
+        cout << message.length();
+
+        return 0;
+    }
+
+
+Output:
+
+    11
+
+
+Here:
+
+    "Hello" = 5 characters
+    Space = 1 character
+    "World" = 5 characters
+
+    Total = 5 + 1 + 5 = 11 characters
+
+
+Difference Between length() and size():
+
+    Function          Description
+    ---------------------------------------------
+    length()          Returns the number of characters
+    size()            Returns the number of characters
+
+    Both functions return the same result for std::string.
+
+
+Key Points:
+
+    1. length() is used to find the length of a string.
+    2. size() can also be used to find the string length.
+    3. Spaces are counted as characters.
+    4. The return value represents the total number of characters.
+    5. Both length() and size() return the same result for strings.
+
+
+In simple words:
+
+    String Length = string ke andar total characters count karna.
+
+
+Exam Answer:
+
+String length is the total number of characters present in a string.
+In C++, the length() or size() function is used to find the length
+of a std::string.

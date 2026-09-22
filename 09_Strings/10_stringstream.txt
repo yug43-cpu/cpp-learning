@@ -1,0 +1,137 @@
+STRINGSTREAM
+
+Definition:
+
+stringstream is a C++ class used to treat a string like an input
+or output stream.
+
+It is mainly used to convert strings into other data types and
+to build or format strings.
+
+
+Header File:
+
+    #include <sstream>
+
+
+Syntax:
+
+    stringstream stream_name(string);
+
+
+Example: String to Integer
+
+    #include <iostream>
+    #include <sstream>
+    using namespace std;
+
+    int main()
+    {
+        string text = "123";
+        int number;
+
+        stringstream ss(text);
+        ss >> number;
+
+        cout << number + 10;
+
+        return 0;
+    }
+
+
+Output:
+
+    133
+
+
+Here:
+
+    stringstream = treats a string like a stream
+    ss = stringstream object
+    text = string containing "123"
+    ss >> number = converts string value into an integer
+
+
+Example: Multiple Values from a String
+
+    #include <iostream>
+    #include <sstream>
+    using namespace std;
+
+    int main()
+    {
+        string text = "10 20 30";
+        int a, b, c;
+
+        stringstream ss(text);
+
+        ss >> a >> b >> c;
+
+        cout << a << " " << b << " " << c;
+
+        return 0;
+    }
+
+
+Output:
+
+    10 20 30
+
+
+Example: Integer to String
+
+    #include <iostream>
+    #include <sstream>
+    using namespace std;
+
+    int main()
+    {
+        int number = 123;
+        string text;
+
+        stringstream ss;
+        ss << number;
+        ss >> text;
+
+        cout << text;
+
+        return 0;
+    }
+
+
+Output:
+
+    123
+
+
+Common Uses:
+
+    Use                         Purpose
+    ------------------------------------------------
+    String to number            Convert text into numbers
+    Number to string            Convert numbers into text
+    Read multiple values        Extract multiple values from a string
+    Build strings               Combine values into a string
+
+
+Key Points:
+
+    1. stringstream is provided by the <sstream> header file.
+    2. It allows a string to be treated like a stream.
+    3. It can be used for type conversion.
+    4. It can read multiple values from a string.
+    5. The >> operator is used to extract values.
+    6. The << operator is used to insert values.
+
+
+In simple words:
+
+    stringstream = string ke andar se data read karne ya data ko
+    string me convert karne ke liye use hota hai.
+
+
+Exam Answer:
+
+stringstream is a C++ class used to perform input and output
+operations on strings. It is commonly used for string processing,
+type conversion and extracting multiple values from a string.

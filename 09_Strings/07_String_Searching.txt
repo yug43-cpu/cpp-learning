@@ -1,0 +1,154 @@
+STRING SEARCHING
+
+Definition:
+
+String searching means finding a particular character or substring
+inside a string.
+
+In C++, the find() function is used to search for a character or
+substring in a string.
+
+
+Syntax:
+
+    string_name.find(search_value);
+
+
+Example 1: Searching for a Word
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string message = "Hello World";
+
+        size_t position = message.find("World");
+
+        if(position != string::npos)
+        {
+            cout << "Word found at index " << position;
+        }
+        else
+        {
+            cout << "Word not found";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Word found at index 6
+
+
+Here:
+
+    message = string in which we search
+    find() = searches for a character or substring
+    "World" = search value
+    position = stores the index where the value is found
+    string::npos = indicates that the value was not found
+    size_t = unsigned integer type used for positions and sizes
+
+
+Example 2: Searching for a Character
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string name = "Yug";
+
+        size_t position = name.find('g');
+
+        if(position != string::npos)
+        {
+            cout << "Character found at index " << position;
+        }
+        else
+        {
+            cout << "Character not found";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Character found at index 2
+
+
+Searching Result:
+
+    String       Yug
+    Search       g
+    Index        2
+    Result       Found
+
+
+If the Value Is Not Found:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string name = "Yug";
+
+        size_t position = name.find("Kumar");
+
+        if(position != string::npos)
+        {
+            cout << "Found";
+        }
+        else
+        {
+            cout << "Not found";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Not found
+
+
+Common String Searching Functions:
+
+    Function       Description
+    -----------------------------------------------
+    find()         Finds the first occurrence
+    rfind()        Finds the last occurrence
+    string::npos   Indicates that the value was not found
+
+
+Key Points:
+
+    1. String searching is used to find a character or substring.
+    2. The find() function returns the index of the first occurrence.
+    3. String indexing starts from 0.
+    4. string::npos indicates that the search value was not found.
+    5. Searching is case-sensitive.
+    6. "Hello" and "hello" are treated as different strings.
+
+
+In simple words:
+
+    String Searching = string ke andar kisi character ya word ko
+    find karna.
+
+
+Exam Answer:
+
+String searching is the process of finding a character or substring
+inside a string. In C++, the find() function is used to search for
+a character or substring and returns its position if found.

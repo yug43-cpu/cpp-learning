@@ -1,0 +1,114 @@
+STRING SUBSTRING
+
+Definition:
+
+A substring is a part of a string extracted from the original
+string.
+
+In C++, the substr() function is used to extract a substring from
+a string.
+
+
+Syntax:
+
+    string_name.substr(start_position, length);
+
+
+Example:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string name = "Yug Kumar";
+
+        string result = name.substr(0, 3);
+
+        cout << result;
+
+        return 0;
+    }
+
+
+Output:
+
+    Yug
+
+
+Here:
+
+    name = original string
+    substr() = extracts a part of the string
+    0 = starting index
+    3 = number of characters to extract
+    result = stores the extracted substring
+
+
+Index:
+
+    String:     Y   u   g       K   u   m   a   r
+    Index:      0   1   2   3   4   5   6   7   8
+
+
+Example:
+
+    string name = "Yug Kumar";
+
+    cout << name.substr(4, 5);
+
+
+Output:
+
+    Kumar
+
+
+Here:
+
+    4 = starting index
+    5 = number of characters
+    Result = "Kumar"
+
+
+Common Forms:
+
+    Syntax                    Meaning
+    -----------------------------------------------
+    substr(start, length)     Extracts given number of characters
+    substr(start)             Extracts from start to the end
+
+
+Example:
+
+    string text = "Hello World";
+
+    cout << text.substr(6);
+
+
+Output:
+
+    World
+
+
+Key Points:
+
+    1. A substring is a part of an original string.
+    2. substr() is used to extract a substring.
+    3. Indexing starts from 0.
+    4. The first argument specifies the starting position.
+    5. The second argument specifies the number of characters.
+    6. If the length is not given, the substring continues to the end.
+
+
+In simple words:
+
+    String Substring = original string ke andar se ek part
+    extract karna.
+
+
+Exam Answer:
+
+A substring is a part of a string extracted from the original
+string. In C++, the substr() function is used to extract a
+substring by specifying the starting position and length.

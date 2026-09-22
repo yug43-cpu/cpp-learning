@@ -1,0 +1,121 @@
+STRING CONCATENATION
+
+Definition:
+
+String concatenation means joining two or more strings together
+to form a single string.
+
+In C++, strings can be joined using the + operator or the
+append() function.
+
+
+Syntax:
+
+    string3 = string1 + string2;
+
+
+Example:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string firstName = "Yug";
+        string lastName = "Kumar";
+
+        string fullName = firstName + " " + lastName;
+
+        cout << fullName;
+
+        return 0;
+    }
+
+
+Output:
+
+    Yug Kumar
+
+
+Here:
+
+    firstName = first string
+    lastName = second string
+    + = concatenation operator
+    " " = space between the strings
+    fullName = stores the joined string
+
+
+Method 2: Using append()
+
+Definition:
+
+append() is a string function used to add one string to the end
+of another string.
+
+
+Syntax:
+
+    string1.append(string2);
+
+
+Example:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string first = "Hello ";
+        string second = "World";
+
+        first.append(second);
+
+        cout << first;
+
+        return 0;
+    }
+
+
+Output:
+
+    Hello World
+
+
+Here:
+
+    append() = adds one string to another
+    first = string that receives the added text
+    second = string added to the end of first
+
+
+Common Methods:
+
+    Method             Description
+    -----------------------------------------------
+    + operator         Joins two or more strings
+    append()           Adds a string to the end of another string
+
+
+Key Points:
+
+    1. String concatenation is used to join strings.
+    2. The + operator can join two or more strings.
+    3. The append() function adds text to the end of a string.
+    4. A space must be added separately when required.
+    5. Concatenation creates a combined string.
+
+
+In simple words:
+
+    String Concatenation = do ya do se zyada strings ko jodkar
+    ek single string banana.
+
+
+Exam Answer:
+
+String concatenation is the process of joining two or more strings
+to form a single string. In C++, the + operator and append()
+function can be used for string concatenation.

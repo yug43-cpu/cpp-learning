@@ -1,0 +1,139 @@
+STRING INPUT
+
+Definition:
+
+String input means taking text or a sequence of characters from
+the user and storing it in a string variable.
+
+In C++, string input can be taken using cin and getline().
+
+
+Methods of String Input:
+
+    Method          Description
+    -----------------------------------------------
+    cin >>          Reads input until a space
+    getline()       Reads a complete line including spaces
+
+
+Method 1: Using cin >>
+
+Syntax:
+
+    cin >> variable_name;
+
+
+Example:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string name;
+
+        cout << "Enter your name: ";
+        cin >> name;
+
+        cout << "Name: " << name;
+
+        return 0;
+    }
+
+
+Input:
+
+    Yug
+
+
+Output:
+
+    Name: Yug
+
+
+Here:
+
+    string name = stores the input text
+    cin >> name = takes input until a space
+
+
+Method 2: Using getline()
+
+Definition:
+
+getline() is used to read a complete line of text, including
+spaces, from the user.
+
+
+Syntax:
+
+    getline(cin, variable_name);
+
+
+Example:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string fullName;
+
+        cout << "Enter your full name: ";
+        getline(cin, fullName);
+
+        cout << "Full Name: " << fullName;
+
+        return 0;
+    }
+
+
+Input:
+
+    Yug Kumar
+
+
+Output:
+
+    Full Name: Yug Kumar
+
+
+Here:
+
+    getline() = reads the complete line
+    cin = input stream
+    fullName = stores the input text
+
+
+Difference Between cin and getline():
+
+    cin >> variable
+        = reads input only until the first space
+
+    getline(cin, variable)
+        = reads the complete line, including spaces
+
+
+Key Points:
+
+    1. String input is used to take text from the user.
+    2. cin >> reads input until a space is found.
+    3. getline() reads a complete line including spaces.
+    4. The string header file is required for std::string.
+    5. Use getline() when taking a full name or sentence.
+
+
+In simple words:
+
+    String Input = user se text ya words lena aur string variable
+    me store karna.
+
+
+Exam Answer:
+
+String input is the process of taking text from the user and
+storing it in a string variable. In C++, cin >> is used to read
+input until a space, while getline() reads a complete line
+including spaces.

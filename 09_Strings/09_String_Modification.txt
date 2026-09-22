@@ -1,0 +1,148 @@
+STRING MODIFICATION
+
+Definition:
+
+String modification means changing or updating the contents of
+a string.
+
+In C++, a std::string can be modified using functions such as
+append(), insert(), erase(), replace() and clear().
+
+
+Common String Modification Functions:
+
+    Function       Purpose
+    -----------------------------------------------
+    append()       Adds text to the end
+    insert()       Adds text at a specified position
+    erase()        Removes characters
+    replace()      Replaces characters with new text
+    clear()        Removes all characters
+
+
+Example:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string text = "Hello";
+
+        text.append(" World");
+
+        cout << text;
+
+        return 0;
+    }
+
+
+Output:
+
+    Hello World
+
+
+Here:
+
+    text = string variable
+    append() = adds text to the end
+    " World" = text added to the string
+
+
+Example: insert()
+
+    string text = "Hello World";
+
+    text.insert(6, "C++ ");
+
+    cout << text;
+
+
+Output:
+
+    Hello C++ World
+
+
+Here:
+
+    6 = position where the text is inserted
+    "C++ " = text being inserted
+
+
+Example: erase()
+
+    string text = "Hello World";
+
+    text.erase(5, 6);
+
+    cout << text;
+
+
+Output:
+
+    Hello
+
+
+Here:
+
+    5 = starting position
+    6 = number of characters to remove
+
+
+Example: replace()
+
+    string text = "Hello World";
+
+    text.replace(6, 5, "C++");
+
+    cout << text;
+
+
+Output:
+
+    Hello C++
+
+
+Here:
+
+    6 = starting position
+    5 = number of characters to replace
+    "C++" = new text
+
+
+Example: clear()
+
+    string text = "Hello";
+
+    text.clear();
+
+    cout << text;
+
+
+Output:
+
+    [Empty string]
+
+
+Key Points:
+
+    1. String modification means changing the contents of a string.
+    2. append() adds text at the end.
+    3. insert() adds text at a specified position.
+    4. erase() removes characters from a string.
+    5. replace() replaces existing characters with new text.
+    6. clear() removes all characters from a string.
+
+
+In simple words:
+
+    String Modification = existing string ke text ko add, remove,
+    insert ya replace karke change karna.
+
+
+Exam Answer:
+
+String modification is the process of changing the contents of a
+string. In C++, functions such as append(), insert(), erase(),
+replace() and clear() are used to modify a std::string.

@@ -1,0 +1,173 @@
+STRING COMPARISON
+
+Definition:
+
+String comparison means comparing two strings to check whether
+they are equal or different.
+
+In C++, strings can be compared using comparison operators or
+the compare() function.
+
+
+Comparison Operators:
+
+    Operator    Meaning
+    --------------------------------
+    ==          Equal to
+    !=          Not equal to
+    <           Less than
+    >           Greater than
+    <=          Less than or equal to
+    >=          Greater than or equal to
+
+
+Syntax:
+
+    string1 == string2;
+
+
+Example 1: Using == Operator
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string first = "Hello";
+        string second = "Hello";
+
+        if(first == second)
+        {
+            cout << "Strings are equal";
+        }
+        else
+        {
+            cout << "Strings are not equal";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Strings are equal
+
+
+Here:
+
+    first = first string
+    second = second string
+    == = checks whether both strings are equal
+    if = checks the comparison condition
+
+
+Example 2: Comparing Different Strings
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string first = "Hello";
+        string second = "World";
+
+        if(first == second)
+        {
+            cout << "Strings are equal";
+        }
+        else
+        {
+            cout << "Strings are not equal";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Strings are not equal
+
+
+Method 2: Using compare()
+
+Definition:
+
+The compare() function is used to compare one string with another
+string.
+
+Syntax:
+
+    string1.compare(string2);
+
+
+Return Values:
+
+    Return Value       Meaning
+    -----------------------------------------------
+    0                  Both strings are equal
+    Negative value     First string comes before second
+    Positive value     First string comes after second
+
+
+Example:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string first = "Apple";
+        string second = "Apple";
+
+        if(first.compare(second) == 0)
+        {
+            cout << "Strings are equal";
+        }
+        else
+        {
+            cout << "Strings are not equal";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Strings are equal
+
+
+Difference Between == and compare():
+
+    Method             Description
+    -----------------------------------------------
+    ==                 Checks whether strings are equal
+    compare()          Compares two strings and returns a value
+
+
+Key Points:
+
+    1. String comparison is used to compare two strings.
+    2. The == operator checks whether two strings are equal.
+    3. The != operator checks whether two strings are different.
+    4. The compare() function returns 0 when strings are equal.
+    5. String comparison is case-sensitive.
+    6. "Hello" and "hello" are considered different strings.
+
+
+In simple words:
+
+    String Comparison = do strings ko compare karke check karna
+    ki dono equal hain ya different.
+
+
+Exam Answer:
+
+String comparison is the process of comparing two strings to check
+whether they are equal or different. In C++, comparison operators
+and the compare() function are used for string comparison.

@@ -1,0 +1,116 @@
+STD::STRING
+
+Definition:
+
+std::string is a C++ string class used to store and work with
+a sequence of characters.
+
+It is easier and safer to use than C-style character arrays
+for most string operations.
+
+
+Syntax:
+
+    string variable_name;
+
+
+Example:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string name = "Yug";
+
+        cout << name;
+
+        return 0;
+    }
+
+
+Output:
+
+    Yug
+
+
+Here:
+
+    string = data type used to store text
+    name = string variable
+    "Yug" = string value
+    #include <string> = header file for std::string
+
+
+Taking String Input:
+
+    string name;
+
+    cout << "Enter your name: ";
+    cin >> name;
+
+
+For Complete Line:
+
+    string name;
+
+    cout << "Enter your full name: ";
+    getline(cin, name);
+
+
+Common std::string Functions:
+
+    Function          Purpose
+    ---------------------------------------------
+    length()          Returns the length of the string
+    size()            Returns the number of characters
+    empty()           Checks whether the string is empty
+    append()          Adds text to the end
+    substr()          Extracts part of a string
+    find()            Finds a character or substring
+
+
+Example:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        string name = "Yug";
+
+        cout << name.length();
+
+        return 0;
+    }
+
+
+Output:
+
+    3
+
+
+Key Points:
+
+    1. std::string is used to store text in C++.
+    2. It is provided by the <string> header file.
+    3. It can store strings of different lengths.
+    4. String indexing starts from 0.
+    5. getline() can be used to take a complete line of text.
+    6. std::string is easier to use than C-style strings.
+
+
+In simple words:
+
+    std::string = C++ me text ya words ko easily store aur
+    manipulate karne ke liye use hota hai.
+
+
+Exam Answer:
+
+std::string is a C++ standard library class used to store and
+manipulate a sequence of characters. It is defined in the
+<string> header file and provides various functions for working
+with strings.
