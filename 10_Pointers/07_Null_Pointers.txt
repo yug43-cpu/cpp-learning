@@ -1,0 +1,99 @@
+NULL POINTERS
+
+Definition:
+
+A null pointer is a pointer that does not point to any valid memory
+location or object.
+
+It is used to indicate that the pointer currently has no valid
+address to point to.
+
+
+Syntax:
+
+    data_type *pointer_name = nullptr;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int *ptr = nullptr;
+
+        if(ptr == nullptr)
+        {
+            cout << "Pointer is null";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Pointer is null
+
+
+Here:
+
+    ptr = pointer variable
+    nullptr = indicates that ptr is not pointing to a valid object
+    == = checks whether the pointer is null
+
+
+Example:
+
+    int *ptr = nullptr;
+
+    cout << ptr;
+
+
+Output:
+
+    0
+
+    Note:
+    The displayed value may depend on the compiler.
+
+
+nullptr:
+
+    nullptr is the modern C++ way to represent a null pointer.
+    It was introduced in C++11.
+
+    Example:
+
+        int *ptr = nullptr;
+
+
+Null Pointer vs Normal Pointer:
+
+    Pointer                  Meaning
+    -----------------------------------------------
+    int *ptr = nullptr;      Does not point to an object
+    int *ptr = &number;      Points to the variable number
+
+
+Key Points:
+
+    1. A null pointer does not point to a valid object.
+    2. nullptr is used to initialize a pointer as null.
+    3. nullptr was introduced in C++11.
+    4. A null pointer should not be dereferenced.
+    5. Checking for nullptr helps avoid invalid memory access.
+
+
+In simple words:
+
+    Null Pointer = aisa pointer jo kisi valid memory location
+    ko point nahi karta.
+
+
+Exam Answer:
+
+A null pointer is a pointer that does not point to any valid
+memory location or object. In modern C++, nullptr is used to
+represent a null pointer.

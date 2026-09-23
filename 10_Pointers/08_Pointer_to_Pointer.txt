@@ -1,0 +1,109 @@
+POINTER TO POINTER
+
+Definition:
+
+A pointer to pointer is a pointer that stores the memory address
+of another pointer.
+
+It is also called a double pointer.
+
+
+Syntax:
+
+    data_type **pointer_name;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int number = 10;
+
+        int *ptr = &number;
+        int **ptr2 = &ptr;
+
+        cout << number << endl;
+        cout << *ptr << endl;
+        cout << **ptr2;
+
+        return 0;
+    }
+
+
+Output:
+
+    10
+    10
+    10
+
+
+Here:
+
+    number = normal variable
+    ptr = pointer that stores the address of number
+    ptr2 = pointer to pointer that stores the address of ptr
+    *ptr = value of number
+    *ptr2 = value stored in ptr, which is the address of number
+    **ptr2 = value of number
+
+
+Memory Representation:
+
+    number
+       |
+       | 10
+       ↓
+    ptr
+       |
+       | address of number
+       ↓
+    ptr2
+       |
+       | address of ptr
+
+
+Pointer Levels:
+
+    Variable:
+
+        int number = 10;
+
+    Pointer:
+
+        int *ptr = &number;
+
+    Pointer to Pointer:
+
+        int **ptr2 = &ptr;
+
+
+Accessing the Value:
+
+    number       → 10
+    *ptr         → 10
+    **ptr2       → 10
+
+
+Key Points:
+
+    1. A pointer to pointer stores the address of another pointer.
+    2. It is declared using two * symbols.
+    3. *ptr2 accesses the pointer stored in ptr2.
+    4. **ptr2 accesses the actual value of the original variable.
+    5. Pointer to pointer is also called a double pointer.
+
+
+In simple words:
+
+    Pointer to Pointer = aisa pointer jo kisi dusre pointer ka
+    memory address store karta hai.
+
+
+Exam Answer:
+
+A pointer to pointer is a pointer that stores the memory address
+of another pointer. It is declared using two asterisks (**)
+and is also known as a double pointer.

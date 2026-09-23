@@ -1,0 +1,68 @@
+WHAT IS MEMORY?
+
+Definition:
+
+Memory is the storage area of a computer used to store data,
+instructions and results temporarily or permanently.
+
+It allows the CPU to access the data and instructions needed
+to perform operations.
+
+
+Types of Memory:
+
+    Type              Description
+    -----------------------------------------------
+    Primary Memory    Directly accessed by the CPU
+    Secondary Memory  Used for permanent data storage
+
+
+Primary Memory:
+
+    RAM
+        = Temporary memory used while programs are running.
+
+    ROM
+        = Memory that stores permanent instructions.
+
+
+Secondary Memory:
+
+    Examples:
+
+        Hard Disk
+        SSD
+        Pen Drive
+        Memory Card
+
+
+Example:
+
+    int age = 20;
+
+    Here:
+
+        age = variable
+        20 = value stored in memory
+
+
+Key Points:
+
+    1. Memory stores data and instructions.
+    2. The CPU uses memory to perform operations.
+    3. RAM is temporary memory.
+    4. ROM stores permanent instructions.
+    5. Memory is divided into primary and secondary memory.
+
+
+In simple words:
+
+    Memory = computer ke andar data aur instructions store karne
+    ki jagah.
+
+
+Exam Answer:
+
+Memory is a storage area of a computer used to store data,
+instructions and results. It enables the CPU to access the
+information required to perform operations.

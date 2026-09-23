@@ -1,0 +1,132 @@
+POINTER ARITHMETIC
+
+Definition:
+
+Pointer arithmetic means performing arithmetic operations on
+pointers to move between memory locations.
+
+Pointer arithmetic is mainly used with arrays and allows a pointer
+to move from one element to another.
+
+
+Common Pointer Arithmetic Operations:
+
+    Operation       Meaning
+    -----------------------------------------------
+    ptr++           Moves pointer to the next element
+    ptr--           Moves pointer to the previous element
+    ptr + n         Moves pointer n elements forward
+    ptr - n         Moves pointer n elements backward
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int numbers[3] = {10, 20, 30};
+
+        int *ptr = numbers;
+
+        cout << *ptr << endl;
+
+        ptr++;
+        cout << *ptr << endl;
+
+        ptr++;
+        cout << *ptr;
+
+        return 0;
+    }
+
+
+Output:
+
+    10
+    20
+    30
+
+
+Here:
+
+    numbers = array
+    ptr = pointer to the first element
+    *ptr = value pointed to by ptr
+    ptr++ = moves the pointer to the next array element
+
+
+How Pointer Arithmetic Works:
+
+    int numbers[3] = {10, 20, 30};
+    int *ptr = numbers;
+
+    ptr       → numbers[0] → 10
+    ptr++     → numbers[1] → 20
+    ptr++     → numbers[2] → 30
+
+
+Important:
+
+    Pointer arithmetic depends on the data type.
+
+    Example:
+
+        int *ptr;
+
+    If int takes 4 bytes, then:
+
+        ptr + 1
+
+    moves the pointer by 4 bytes to the next int element.
+
+    The pointer moves to the next element, not simply one byte.
+
+
+Pointer Arithmetic with Array:
+
+    int numbers[5] = {10, 20, 30, 40, 50};
+
+    int *ptr = numbers;
+
+    cout << *(ptr + 0) << endl;
+    cout << *(ptr + 1) << endl;
+    cout << *(ptr + 2) << endl;
+
+
+Output:
+
+    10
+    20
+    30
+
+
+Here:
+
+    *(ptr + 0) = numbers[0]
+    *(ptr + 1) = numbers[1]
+    *(ptr + 2) = numbers[2]
+
+
+Key Points:
+
+    1. Pointer arithmetic is used to move between memory locations.
+    2. It is commonly used with arrays.
+    3. ptr++ moves to the next element.
+    4. ptr-- moves to the previous element.
+    5. ptr + n moves n elements forward.
+    6. Pointer movement depends on the size of the data type.
+
+
+In simple words:
+
+    Pointer Arithmetic = pointer ko memory me ek element se
+    dusre element par move karna.
+
+
+Exam Answer:
+
+Pointer arithmetic is the process of performing arithmetic
+operations on pointers to move between memory locations.
+It is commonly used for accessing elements of arrays.

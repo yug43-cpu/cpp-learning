@@ -1,0 +1,103 @@
+DEREFERENCE OPERATOR *
+
+Definition:
+
+The dereference operator (*) is used to access the value stored at
+the memory address held by a pointer.
+
+It is also called the indirection operator.
+
+
+Syntax:
+
+    *pointer_name;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int number = 10;
+        int *ptr = &number;
+
+        cout << *ptr;
+
+        return 0;
+    }
+
+
+Output:
+
+    10
+
+
+Here:
+
+    number = variable that stores 10
+    &number = memory address of number
+    ptr = pointer variable that stores the address
+    *ptr = accesses the value stored at that address
+
+
+Memory Representation:
+
+    number
+    Value: 10
+    Address: 0x61ff08
+
+    ptr
+    Stores: 0x61ff08
+
+    *ptr
+    Gives: 10
+
+
+Address Operator & vs Dereference Operator *:
+
+    Operator        Meaning
+    -----------------------------------------------
+    &variable       Gets the memory address
+    *pointer        Gets the value at that address
+
+
+Example:
+
+    int number = 20;
+    int *ptr = &number;
+
+    cout << ptr;
+    cout << *ptr;
+
+
+Output:
+
+    0x61ff08
+    20
+
+    Note:
+    The memory address is only an example and may be different.
+
+
+Key Points:
+
+    1. * is called the dereference or indirection operator.
+    2. It is used with a pointer to access the stored value.
+    3. *ptr gives the value stored at the address held by ptr.
+    4. & is used to get an address, while * is used to access
+       the value at that address.
+
+
+In simple words:
+
+    Dereference Operator * = pointer jis memory address ko store
+    karta hai, us address par stored value ko access karna.
+
+
+Exam Answer:
+
+The dereference operator (*) is used to access the value stored
+at the memory address held by a pointer. It is also known as the
+indirection operator.

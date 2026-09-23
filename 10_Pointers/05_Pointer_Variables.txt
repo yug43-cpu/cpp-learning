@@ -1,0 +1,101 @@
+POINTER VARIABLES
+
+Definition:
+
+A pointer variable is a variable that stores the memory address
+of another variable.
+
+A pointer is declared using the * symbol.
+
+
+Syntax:
+
+    data_type *pointer_name;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int number = 10;
+        int *ptr = &number;
+
+        cout << "Value: " << number << endl;
+        cout << "Address: " << ptr << endl;
+        cout << "Value using pointer: " << *ptr;
+
+        return 0;
+    }
+
+
+Output:
+
+    Value: 10
+    Address: 0x61ff08
+    Value using pointer: 10
+
+    Note:
+    The memory address is only an example and may be different.
+
+
+Here:
+
+    number = normal variable that stores 10
+    &number = gets the memory address of number
+    ptr = pointer variable
+    ptr = stores the address of number
+    *ptr = accesses the value stored at that address
+
+
+Memory Representation:
+
+    Variable        Stores
+    --------------------------------
+    number          10
+    ptr             Address of number
+    *ptr             10
+
+
+Pointer Declaration and Initialization:
+
+    int number = 20;
+    int *ptr = &number;
+
+    Here:
+
+        int *ptr = declares a pointer
+        &number = gets the address of number
+        ptr = stores the address of number
+
+
+Pointer Operators:
+
+    Operator        Meaning
+    -----------------------------------------------
+    &               Gets the address of a variable
+    *               Accesses the value at an address
+
+
+Key Points:
+
+    1. A pointer variable stores a memory address.
+    2. A pointer is declared using the * symbol.
+    3. The & operator is used to get an address.
+    4. The * operator is used to access the value at an address.
+    5. The pointer data type should match the variable data type.
+
+
+In simple words:
+
+    Pointer Variable = ek aisa variable jo kisi dusre variable
+    ka memory address store karta hai.
+
+
+Exam Answer:
+
+A pointer variable is a variable that stores the memory address
+of another variable. It is declared using the * symbol and can be
+used to access the value stored at that address.

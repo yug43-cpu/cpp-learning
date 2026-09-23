@@ -1,0 +1,102 @@
+ADDRESS OPERATOR &
+
+Definition:
+
+The address operator (&) is used to get the memory address of
+a variable.
+
+It is also called the address-of operator.
+
+
+Syntax:
+
+    &variable_name;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int number = 10;
+
+        cout << &number;
+
+        return 0;
+    }
+
+
+Output:
+
+    0x61ff08
+
+
+Here:
+
+    number = variable
+    10 = value stored in the variable
+    &number = memory address of number
+    0x61ff08 = example memory address
+
+
+Example with Value and Address:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int number = 10;
+
+        cout << "Value: " << number << endl;
+        cout << "Address: " << &number;
+
+        return 0;
+    }
+
+
+Output:
+
+    Value: 10
+    Address: 0x61ff08
+
+
+Here:
+
+    number = gives the value stored in the variable
+    &number = gives the memory address of the variable
+
+
+Important:
+
+    & is used for two common purposes in C++:
+
+    Use                  Meaning
+    -----------------------------------------------
+    &variable            Gets the memory address
+    & in reference       Declares a reference variable
+
+    In this topic, & is used as the address-of operator.
+
+
+Key Points:
+
+    1. & is called the address-of operator.
+    2. It is used to get the memory address of a variable.
+    3. The address can be stored in a pointer.
+    4. Memory addresses are usually displayed in hexadecimal form.
+    5. The actual address may be different each time the program runs.
+
+
+In simple words:
+
+    Address Operator & = variable memory me kis location par
+    stored hai, uska address find karna.
+
+
+Exam Answer:
+
+The address operator (&) is an operator used to obtain the memory
+address of a variable. It is also known as the address-of operator.

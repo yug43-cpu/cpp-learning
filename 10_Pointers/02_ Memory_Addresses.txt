@@ -1,0 +1,84 @@
+MEMORY ADDRESSES
+
+Definition:
+
+A memory address is a unique location number assigned to a place
+in the computer's memory where data is stored.
+
+Each variable stored in memory has its own memory address.
+
+
+Example:
+
+    int age = 20;
+
+    cout << &age;
+
+
+Output:
+
+    0x61ff08
+
+
+Here:
+
+    age = variable
+    20 = value stored in memory
+    &age = address of the variable age
+    0x61ff08 = example memory address
+
+
+Memory Representation:
+
+    Variable       Value       Memory Address
+    -------------------------------------------
+    age            20          0x61ff08
+    marks          85          0x61ff04
+
+    Note:
+    Memory addresses shown above are examples and may be different
+    each time the program runs.
+
+
+Address Operator (&):
+
+The & operator is called the address-of operator.
+It is used to get the memory address of a variable.
+
+Syntax:
+
+    &variable_name;
+
+
+Example:
+
+    int number = 10;
+
+    cout << &number;
+
+
+Output:
+
+    0x61ff0c
+
+
+Key Points:
+
+    1. Every variable is stored at a memory location.
+    2. Each memory location has an address.
+    3. The address identifies where the data is stored.
+    4. The & operator is used to get the address of a variable.
+    5. Memory addresses are commonly used when working with pointers.
+
+
+In simple words:
+
+    Memory Address = memory me variable/data kis location par
+    stored hai, us location ka address.
+
+
+Exam Answer:
+
+A memory address is a unique address of a location in computer
+memory where a variable or data is stored. In C++, the address-of
+operator (&) is used to access the memory address of a variable.
