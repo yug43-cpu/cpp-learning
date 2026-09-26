@@ -153,7 +153,7 @@
 
 ---
 
-# 📌 10. Pointers🔄
+# 📌 10. Pointers 🔄
 
 * ⬜ What is Memory?
 * ⬜ Memory Addresses
