@@ -170,19 +170,19 @@
 
 ---
 
-# 📌 11. References🔄
+# 📌 11. References
 
-* ⬜ References
-* ⬜ Reference Variables
-* ⬜ References vs Pointers
-* ⬜ Pass by Value
-* ⬜ Pass by Reference
-* ⬜ Const References
-* ⬜ Returning References
+* ✅ References
+* ✅ Reference Variables
+* ✅ References vs Pointers
+* ✅ Pass by Value
+* ✅ Pass by Reference
+* ✅ Const References
+* ✅ Returning References
 
 ---
 
-# 📌 12. Structures & Enumerations
+# 📌 12. Structures & Enumerations🔄
 
 * ⬜ `struct`
 * ⬜ Structure Members
