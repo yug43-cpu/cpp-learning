@@ -1,0 +1,123 @@
+PASS BY VALUE
+
+Definition:
+
+Pass by value means passing a copy of a variable's value to a
+function.
+
+Any changes made to the parameter inside the function do not change
+the original variable.
+
+
+Syntax:
+
+    return_type function_name(data_type parameter)
+    {
+        // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    void changeValue(int x)
+    {
+        x = 20;
+    }
+
+    int main()
+    {
+        int number = 10;
+
+        changeValue(number);
+
+        cout << number;
+
+        return 0;
+    }
+
+
+Output:
+
+    10
+
+
+Here:
+
+    number = original variable
+    x = copy of number
+    changeValue(number) = passes the value of number to the function
+    x = 20 = changes only the copy
+
+    Original number remains 10.
+
+
+How It Works:
+
+    Before function call:
+
+        number = 10
+
+    Function receives a copy:
+
+        x = 10
+
+    Inside function:
+
+        x = 20
+
+    After function:
+
+        number = 10
+
+
+Pass by Value vs Pass by Reference:
+
+    Feature             Pass by Value          Pass by Reference
+    --------------------------------------------------------------
+    What is passed      Copy of value          Reference to original
+    Original changes    No                     Yes
+    Example             void fun(int x)        void fun(int &x)
+    Memory              Separate copy          Same original variable
+
+
+Example:
+
+    void change(int x)
+    {
+        x = 50;
+    }
+
+    int number = 10;
+
+    change(number);
+
+    cout << number;
+
+
+Output:
+
+    10
+
+
+Key Points:
+
+    1. Pass by value sends a copy of the value to the function.
+    2. Changes inside the function do not affect the original variable.
+    3. The function parameter gets its own copy.
+    4. It is useful when the original value should not be changed.
+
+
+In simple words:
+
+    Pass by Value = function ko variable ki copy dena, original
+    variable change nahi hota.
+
+
+Exam Answer:
+
+Pass by value is a method of passing arguments to a function in
+which a copy of the actual value is passed. Changes made to the
+parameter inside the function do not affect the original variable.
