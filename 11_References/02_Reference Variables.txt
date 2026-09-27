@@ -1,0 +1,119 @@
+REFERENCE VARIABLES
+
+Definition:
+
+A reference variable is a variable that acts as another name
+(alias) for an existing variable.
+
+It refers to the same memory location as the original variable.
+
+
+Syntax:
+
+    data_type &reference_name = variable_name;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int number = 10;
+
+        int &ref = number;
+
+        cout << ref;
+
+        return 0;
+    }
+
+
+Output:
+
+    10
+
+
+Here:
+
+    number = original variable
+    ref = reference variable
+    & = reference symbol
+    ref and number = refer to the same memory location
+
+
+Changing the Reference Variable:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int number = 10;
+
+        int &ref = number;
+
+        ref = 20;
+
+        cout << number;
+
+        return 0;
+    }
+
+
+Output:
+
+    20
+
+
+Here:
+
+    ref = 20
+
+    The value of number also becomes 20 because both refer to
+    the same memory location.
+
+
+Reference Variable vs Normal Variable:
+
+    Feature             Reference Variable     Normal Variable
+    ------------------------------------------------------------
+    Example             int &ref = number;     int number = 10;
+    Purpose             Another name           Stores a value
+    Memory               Same as original       Separate memory
+    Changes original     Yes                    No
+
+
+Reference Variable vs Pointer:
+
+    Feature             Reference              Pointer
+    ---------------------------------------------------------
+    Declaration         int &ref = number;     int *ptr = &number;
+    Represents          Alias                  Memory address
+    Access value        ref                    *ptr
+    Can be nullptr       No                     Yes
+    Must be initialized  Yes                    No
+
+
+Key Points:
+
+    1. A reference variable is another name for an existing variable.
+    2. It is declared using the & symbol.
+    3. It must be initialized when declared.
+    4. It refers to the same memory location as the original variable.
+    5. Changes through the reference also change the original variable.
+    6. References are commonly used with functions.
+
+
+In simple words:
+
+    Reference Variable = existing variable ka ek aur name jo same
+    memory location ko refer karta hai.
+
+
+Exam Answer:
+
+A reference variable is an alias or another name for an existing
+variable. It is declared using the & symbol and refers to the same
+memory location as the original variable.
