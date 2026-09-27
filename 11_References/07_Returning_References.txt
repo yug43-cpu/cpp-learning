@@ -1,0 +1,149 @@
+RETURNING REFERENCES
+
+Definition:
+
+Returning a reference means a function returns a reference to an
+existing variable instead of returning a copy of its value.
+
+This allows the returned reference to access or modify the original
+variable.
+
+
+Syntax:
+
+    data_type& function_name()
+    {
+        return variable;
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int& getValue(int &number)
+    {
+        return number;
+    }
+
+    int main()
+    {
+        int number = 10;
+
+        getValue(number) = 20;
+
+        cout << number;
+
+        return 0;
+    }
+
+
+Output:
+
+    20
+
+
+Here:
+
+    number = original variable
+    int& = function returns a reference
+    getValue(number) = returns a reference to number
+    getValue(number) = 20 = changes the original variable
+
+
+How It Works:
+
+    1. number stores 10.
+    2. getValue() receives number by reference.
+    3. The function returns a reference to number.
+    4. The returned reference is assigned 20.
+    5. The original number becomes 20.
+
+
+Returning Value vs Returning Reference:
+
+    Feature              Return by Value       Return by Reference
+    ----------------------------------------------------------------
+    Returns              Copy of value         Reference to variable
+    Original can change  No                    Yes
+    Syntax               int function()        int& function()
+    Example              return number;        return number;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int& getNumber()
+    {
+        static int number = 10;
+
+        return number;
+    }
+
+    int main()
+    {
+        getNumber() = 50;
+
+        cout << getNumber();
+
+        return 0;
+    }
+
+
+Output:
+
+    50
+
+
+Important:
+
+    A function should NOT return a reference to a local variable.
+
+    Wrong:
+
+        int& getNumber()
+        {
+            int number = 10;
+
+            return number;
+        }
+
+    After the function ends, the local variable is destroyed.
+    The returned reference would refer to an invalid object.
+
+
+Safe Example:
+
+    int& getNumber()
+    {
+        static int number = 10;
+
+        return number;
+    }
+
+
+Key Points:
+
+    1. A function can return a reference using &.
+    2. Returning a reference avoids returning a copy.
+    3. The returned reference can modify the original variable.
+    4. Do not return a reference to a normal local variable.
+    5. The referenced variable must remain alive after the function
+       returns.
+
+
+In simple words:
+
+    Returning Reference = function se original variable ka
+    reference return karna, taki us variable ko directly access
+    ya modify kar saken.
+
+
+Exam Answer:
+
+Returning a reference means a function returns a reference to an
+existing variable instead of returning a copy of its value. It
+allows the caller to access or modify the original variable.
