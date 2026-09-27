@@ -1,0 +1,105 @@
+NULLPTR
+
+Definition:
+
+nullptr is a special keyword in C++ used to represent a null
+pointer.
+
+It means that the pointer is not pointing to any valid memory
+location or object.
+
+
+Syntax:
+
+    data_type *pointer_name = nullptr;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int *ptr = nullptr;
+
+        if(ptr == nullptr)
+        {
+            cout << "Pointer is null";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    Pointer is null
+
+
+Here:
+
+    ptr = pointer variable
+    nullptr = represents no valid address
+    == = checks whether the pointer is null
+
+
+nullptr vs Normal Pointer:
+
+    Pointer                  Meaning
+    -----------------------------------------------
+    int *ptr = nullptr;      Does not point to an object
+    int *ptr = &number;      Points to the variable number
+
+
+Example:
+
+    int number = 10;
+
+    int *ptr = &number;
+
+    if(ptr != nullptr)
+    {
+        cout << *ptr;
+    }
+
+
+Output:
+
+    10
+
+
+Here:
+
+    ptr != nullptr = checks that ptr contains a valid pointer
+    *ptr = accesses the value stored at that address
+
+
+nullptr vs NULL:
+
+    nullptr       Modern C++ null pointer keyword
+    NULL          Older way of representing a null pointer
+
+    nullptr is preferred in modern C++.
+
+
+Key Points:
+
+    1. nullptr represents a null pointer.
+    2. It means the pointer does not point to a valid object.
+    3. nullptr was introduced in C++11.
+    4. It is safer and clearer than NULL.
+    5. A nullptr should not be dereferenced.
+    6. Always check a pointer before dereferencing when it may be null.
+
+
+In simple words:
+
+    nullptr = pointer ke paas koi valid memory address nahi hai.
+
+
+Exam Answer:
+
+nullptr is a C++ keyword used to represent a null pointer.
+It indicates that a pointer does not point to any valid memory
+location or object.

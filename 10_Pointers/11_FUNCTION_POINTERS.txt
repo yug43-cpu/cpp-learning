@@ -1,0 +1,126 @@
+FUNCTION POINTERS
+
+Definition:
+
+A function pointer is a pointer that stores the memory address of
+a function.
+
+It can be used to call a function through the pointer.
+
+
+Syntax:
+
+    return_type (*pointer_name)(parameter_types);
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    void hello()
+    {
+        cout << "Hello World";
+    }
+
+    int main()
+    {
+        void (*ptr)() = hello;
+
+        ptr();
+
+        return 0;
+    }
+
+
+Output:
+
+    Hello World
+
+
+Here:
+
+    hello = function
+    ptr = function pointer
+    &hello = address of the function
+    ptr() = calls the function through the pointer
+
+    Note:
+    In this example, hello and &hello can both be used to initialize
+    the function pointer.
+
+
+Example with Parameters:
+
+    #include <iostream>
+    using namespace std;
+
+    int add(int a, int b)
+    {
+        return a + b;
+    }
+
+    int main()
+    {
+        int (*ptr)(int, int) = add;
+
+        cout << ptr(10, 20);
+
+        return 0;
+    }
+
+
+Output:
+
+    30
+
+
+Here:
+
+    add = function that takes two integers
+    ptr = function pointer
+    ptr(10, 20) = calls add() through the pointer
+    30 = returned value
+
+
+Function Pointer Structure:
+
+    int (*ptr)(int, int) = add;
+
+    int          = return type
+    (*ptr)       = function pointer
+    (int, int)   = parameter types
+    add          = function assigned to the pointer
+
+
+Common Uses:
+
+    Use                     Purpose
+    ------------------------------------------------
+    Callback functions      Call a function indirectly
+    Function selection      Select different functions
+    Arrays of functions     Store multiple function addresses
+    Event handling          Execute a function when an event occurs
+
+
+Key Points:
+
+    1. A function pointer stores the address of a function.
+    2. It is declared using * with parentheses around the pointer name.
+    3. The function pointer's return type and parameters should match
+       the function it points to.
+    4. A function can be called using the function pointer.
+    5. Function pointers are useful for callbacks and flexible programs.
+
+
+In simple words:
+
+    Function Pointer = aisa pointer jo kisi function ka memory
+    address store karta hai aur us function ko call kar sakta hai.
+
+
+Exam Answer:
+
+A function pointer is a pointer that stores the address of a
+function. It can be used to call the function indirectly and is
+commonly used for callbacks and flexible function selection.

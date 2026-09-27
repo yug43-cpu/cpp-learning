@@ -1,0 +1,129 @@
+POINTERS & ARRAYS
+
+Definition:
+
+Pointers and arrays are closely related in C++. The name of an
+array represents the address of its first element.
+
+A pointer can be used to access and traverse the elements of an
+array.
+
+
+Syntax:
+
+    data_type array_name[size];
+
+    data_type *pointer_name = array_name;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int numbers[3] = {10, 20, 30};
+
+        int *ptr = numbers;
+
+        cout << *ptr << endl;
+        cout << *(ptr + 1) << endl;
+        cout << *(ptr + 2);
+
+        return 0;
+    }
+
+
+Output:
+
+    10
+    20
+    30
+
+
+Here:
+
+    numbers = array name
+    ptr = pointer to the first element of the array
+    *ptr = first element
+    *(ptr + 1) = second element
+    *(ptr + 2) = third element
+
+
+Array and Pointer Relationship:
+
+    Expression          Meaning
+    -----------------------------------------------
+    numbers             Address of first element
+    &numbers[0]         Address of first element
+    *numbers            First element
+    numbers[1]          Second element
+    *(numbers + 1)      Second element
+    numbers[2]          Third element
+    *(numbers + 2)      Third element
+
+
+Memory Representation:
+
+    Array:
+
+    numbers[0]    numbers[1]    numbers[2]
+        10            20            30
+         ↑
+         |
+        ptr
+
+
+Example with Loop:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int numbers[5] = {10, 20, 30, 40, 50};
+
+        int *ptr = numbers;
+
+        for(int i = 0; i < 5; i++)
+        {
+            cout << *(ptr + i) << " ";
+        }
+
+        return 0;
+    }
+
+
+Output:
+
+    10 20 30 40 50
+
+
+Here:
+
+    ptr + i = moves the pointer to the next array element
+    *(ptr + i) = accesses the value at that position
+
+
+Key Points:
+
+    1. The array name represents the address of its first element
+       in most expressions.
+    2. A pointer can be used to access array elements.
+    3. *(ptr + i) is another way to access array[i].
+    4. Pointer arithmetic is commonly used with arrays.
+    5. Array indexing starts from 0.
+
+
+In simple words:
+
+    Pointers & Arrays = pointer ka use karke array ke elements
+    ko access aur traverse karna.
+
+
+Exam Answer:
+
+In C++, arrays and pointers are closely related. The array name
+generally represents the address of its first element, and a pointer
+can be used to access array elements using pointer arithmetic.

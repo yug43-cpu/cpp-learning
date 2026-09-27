@@ -1,0 +1,113 @@
+POINTERS & FUNCTIONS
+
+Definition:
+
+Pointers can be passed to functions to allow the function to
+access or modify the original variable using its memory address.
+
+This is commonly used when we want a function to change the value
+of a variable.
+
+
+Syntax:
+
+    return_type function_name(data_type *pointer_name)
+    {
+        // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    void changeValue(int *ptr)
+    {
+        *ptr = 20;
+    }
+
+    int main()
+    {
+        int number = 10;
+
+        changeValue(&number);
+
+        cout << number;
+
+        return 0;
+    }
+
+
+Output:
+
+    20
+
+
+Here:
+
+    number = original variable
+    &number = address of number
+    ptr = pointer parameter of the function
+    *ptr = accesses the original value
+    changeValue(&number) = passes the address to the function
+
+
+How It Works:
+
+    1. number stores 10.
+    2. &number gives the address of number.
+    3. The address is passed to changeValue().
+    4. ptr stores that address.
+    5. *ptr changes the original value from 10 to 20.
+
+
+Normal Function vs Pointer Function:
+
+    Method                  Effect
+    ------------------------------------------------
+    Pass by value           Changes only the copy
+    Pass using pointer      Can change the original variable
+
+
+Example:
+
+    void swap(int *a, int *b)
+    {
+        int temp = *a;
+        *a = *b;
+        *b = temp;
+    }
+
+    int x = 10;
+    int y = 20;
+
+    swap(&x, &y);
+
+
+After function call:
+
+    x = 20
+    y = 10
+
+
+Key Points:
+
+    1. Pointers can be passed as function parameters.
+    2. The address of a variable is passed using &.
+    3. The pointer parameter stores the address.
+    4. The * operator is used to access or modify the original value.
+    5. Pointers allow a function to modify the original variable.
+
+
+In simple words:
+
+    Pointers & Functions = function ko variable ka address dena
+    taki function original variable ko access ya change kar sake.
+
+
+Exam Answer:
+
+Pointers can be passed to functions as arguments to provide the
+function with the address of a variable. Using the pointer, the
+function can access and modify the original variable.
