@@ -1,0 +1,164 @@
+CONST REFERENCES
+
+Definition:
+
+A const reference is a reference that cannot be used to modify
+the value of the original variable.
+
+It is declared using the const keyword with a reference.
+
+
+Syntax:
+
+    const data_type &reference_name = variable_name;
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int number = 10;
+
+        const int &ref = number;
+
+        cout << ref;
+
+        return 0;
+    }
+
+
+Output:
+
+    10
+
+
+Here:
+
+    number = original variable
+    ref = const reference to number
+    const = prevents modification through the reference
+    ref = can read the value but cannot change it
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int number = 10;
+
+        const int &ref = number;
+
+        // ref = 20;   // Error
+
+        cout << number;
+
+        return 0;
+    }
+
+
+Output:
+
+    10
+
+
+Important:
+
+    const int &ref = number;
+
+    ref = 20;
+
+    This is not allowed because ref is a const reference.
+
+
+Const Reference with Function:
+
+    void display(const int &x)
+    {
+        cout << x;
+    }
+
+    int number = 10;
+
+    display(number);
+
+
+Output:
+
+    10
+
+
+Here:
+
+    const int &x
+        = function can read the original value
+          but cannot modify it.
+
+
+Why Use Const Reference?
+
+    1. Avoids making an unnecessary copy.
+    2. Allows the function to read the original value.
+    3. Prevents accidental modification of the original value.
+    4. Useful when passing large objects such as strings or classes.
+
+
+Example with String:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    void display(const string &name)
+    {
+        cout << name;
+    }
+
+    int main()
+    {
+        string name = "Yug";
+
+        display(name);
+
+        return 0;
+    }
+
+
+Output:
+
+    Yug
+
+
+Reference Types:
+
+    Type                    Can modify original?
+    ------------------------------------------------
+    int &ref                Yes
+    const int &ref          No
+
+
+Key Points:
+
+    1. const reference cannot modify the referenced value.
+    2. It is declared using const and &.
+    3. It can be used to read the original value.
+    4. It avoids unnecessary copying when used with functions.
+    5. It is commonly used with strings, classes and other large objects.
+
+
+In simple words:
+
+    Const Reference = original value ko read kar sakte ho, lekin
+    reference ke through usko change nahi kar sakte.
+
+
+Exam Answer:
+
+A const reference is a reference that provides read-only access
+to an existing variable. It is declared using const and the &
+symbol and cannot be used to modify the original variable.
