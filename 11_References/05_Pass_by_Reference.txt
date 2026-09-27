@@ -1,0 +1,144 @@
+PASS BY REFERENCE
+
+Definition:
+
+Pass by reference means passing a reference to the original
+variable to a function.
+
+The function works with the original variable, so changes made
+inside the function also change the original variable.
+
+
+Syntax:
+
+    return_type function_name(data_type &parameter)
+    {
+        // statements
+    }
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    void changeValue(int &x)
+    {
+        x = 20;
+    }
+
+    int main()
+    {
+        int number = 10;
+
+        changeValue(number);
+
+        cout << number;
+
+        return 0;
+    }
+
+
+Output:
+
+    20
+
+
+Here:
+
+    number = original variable
+    x = reference to number
+    & = reference symbol
+    changeValue(number) = passes number by reference
+    x = 20 = changes the original variable
+
+
+How It Works:
+
+    Before function call:
+
+        number = 10
+
+    Function receives a reference:
+
+        x → number
+
+    Inside function:
+
+        x = 20
+
+    After function:
+
+        number = 20
+
+
+Pass by Value vs Pass by Reference:
+
+    Feature             Pass by Value          Pass by Reference
+    --------------------------------------------------------------
+    What is passed      Copy of value          Reference to original
+    Original changes    No                     Yes
+    Example             void fun(int x)        void fun(int &x)
+    Memory              Separate copy          Same original variable
+
+
+Example: Swap Two Numbers
+
+    #include <iostream>
+    using namespace std;
+
+    void swapNumbers(int &a, int &b)
+    {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
+
+    int main()
+    {
+        int x = 10;
+        int y = 20;
+
+        swapNumbers(x, y);
+
+        cout << x << " " << y;
+
+        return 0;
+    }
+
+
+Output:
+
+    20 10
+
+
+Here:
+
+    x = 10
+    y = 20
+
+    The function changes the original values because a and b
+    are references to x and y.
+
+
+Key Points:
+
+    1. Pass by reference passes the original variable to a function.
+    2. It is done using the & symbol in the parameter.
+    3. Changes inside the function affect the original variable.
+    4. No separate copy of the variable is required.
+    5. It is useful when a function needs to modify original values.
+
+
+In simple words:
+
+    Pass by Reference = function ko original variable ka reference
+    dena, taki function original variable ko change kar sake.
+
+
+Exam Answer:
+
+Pass by reference is a method of passing arguments to a function
+where a reference to the original variable is passed. Any changes
+made to the parameter inside the function affect the original
+variable.
