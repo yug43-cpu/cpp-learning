@@ -153,24 +153,24 @@
 
 ---
 
-# 📌 10. Pointers 🔄
+# 📌 10. Pointers 
 
-* ⬜ What is Memory?
-* ⬜ Memory Addresses
-* ⬜ Address Operator `&`
-* ⬜ Dereference Operator `*`
-* ⬜ Pointer Variables
-* ⬜ Pointer Arithmetic
-* ⬜ Null Pointers
-* ⬜ Pointer to Pointer
-* ⬜ Pointers & Arrays
-* ⬜ Pointers & Functions
-* ⬜ Function Pointers
-* ⬜ `nullptr`
+* ✅ What is Memory?
+* ✅ Memory Addresses
+* ✅ Address Operator `&`
+* ✅ Dereference Operator `*`
+* ✅ Pointer Variables
+* ✅ Pointer Arithmetic
+* ✅ Null Pointers
+* ✅ Pointer to Pointer
+* ✅ Pointers & Arrays
+* ✅ Pointers & Functions
+* ✅ Function Pointers
+* ✅ `nullptr`
 
 ---
 
-# 📌 11. References
+# 📌 11. References🔄
 
 * ⬜ References
 * ⬜ Reference Variables
