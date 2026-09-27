@@ -1,0 +1,130 @@
+REFERENCES VS POINTERS
+
+Definition:
+
+References and pointers are both used to work with existing
+variables and memory, but they work differently.
+
+Comparison:
+
+    Feature             Reference                Pointer
+    ----------------------------------------------------------------
+    Meaning             Another name for         Stores the memory
+                        an existing variable     address of a variable
+
+    Declaration         int &ref = number;      int *ptr = &number;
+
+    Access value        ref                     *ptr
+
+    Can be nullptr      No                      Yes
+
+    Must be initialized Yes                     No
+
+    Can be reassigned   No                      Yes
+
+    Uses memory         Same memory as          Stores an address
+                        original variable
+
+    Null value          Not possible            nullptr is possible
+
+    Arithmetic          No pointer arithmetic   Pointer arithmetic
+                        on reference            is possible
+
+
+Example:
+
+    int number = 10;
+
+    int &ref = number;
+    int *ptr = &number;
+
+
+Here:
+
+    ref = reference to number
+    ptr = pointer storing the address of number
+
+    cout << ref;
+    cout << *ptr;
+
+
+Output:
+
+    10
+    10
+
+
+Changing Value:
+
+    ref = 20;
+
+    cout << number;
+
+
+Output:
+
+    20
+
+
+    *ptr = 30;
+
+    cout << number;
+
+
+Output:
+
+    30
+
+
+Here:
+
+    Both ref and *ptr can modify the original variable.
+
+
+Simple Difference:
+
+    Reference:
+
+        int &ref = number;
+
+        ref
+         ↓
+        number
+
+
+    Pointer:
+
+        int *ptr = &number;
+
+        ptr
+         ↓
+        address of number
+         ↓
+        number
+
+
+Key Points:
+
+    1. A reference is another name for an existing variable.
+    2. A pointer stores the memory address of a variable.
+    3. A reference cannot be null, but a pointer can be nullptr.
+    4. A reference must be initialized when declared.
+    5. A pointer can be changed to point to another variable.
+    6. Pointer arithmetic is possible, but reference arithmetic
+       is not.
+    7. Both can be used to modify the original variable.
+
+
+In simple words:
+
+    Reference = variable ka another name.
+
+    Pointer = variable ka memory address store karta hai.
+
+
+Exam Answer:
+
+A reference is an alias for an existing variable, while a pointer
+is a variable that stores the memory address of another variable.
+References cannot be null or reassigned, whereas pointers can be
+nullptr and can point to different variables.
