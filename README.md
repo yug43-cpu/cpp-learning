@@ -184,13 +184,13 @@
 
 # 📌 12. Structures & Enumerations🔄
 
-* ⬜ `struct`
-* ⬜ Structure Members
-* ⬜ Array of Structures
-* ⬜ Nested Structures
-* ⬜ Structure with Functions
-* ⬜ `enum`
-* ⬜ `enum class`
+* ✅ `struct`
+* ✅ Structure Members
+* ✅ Array of Structures
+* ✅ Nested Structures
+* ✅ Structure with Functions
+* ✅ `enum`
+* ✅ `enum class`
 * ⬜ `typedef`
 * ⬜ `using`
 
