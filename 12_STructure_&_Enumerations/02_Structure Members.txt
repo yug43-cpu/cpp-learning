@@ -1,0 +1,138 @@
+STRUCTURE MEMBERS
+
+Definition:
+
+Structure members are the variables or data items declared inside
+a structure.
+
+They store the information that belongs to a structure.
+
+
+Syntax:
+
+    struct StructureName
+    {
+        data_type member1;
+        data_type member2;
+    };
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    struct Student
+    {
+        string name;
+        int age;
+        float marks;
+    };
+
+    int main()
+    {
+        Student s1;
+
+        s1.name = "Yug";
+        s1.age = 20;
+        s1.marks = 85.5;
+
+        cout << "Name: " << s1.name << endl;
+        cout << "Age: " << s1.age << endl;
+        cout << "Marks: " << s1.marks;
+
+        return 0;
+    }
+
+
+Output:
+
+    Name: Yug
+    Age: 20
+    Marks: 85.5
+
+
+Here:
+
+    name  = structure member of type string
+    age   = structure member of type int
+    marks = structure member of type float
+
+    s1.name
+        = accesses the name member
+
+    s1.age
+        = accesses the age member
+
+    s1.marks
+        = accesses the marks member
+
+
+Types of Structure Members:
+
+    Member Type         Example
+    -----------------------------------------------
+    int member          int age;
+    float member        float marks;
+    char member         char grade;
+    string member       string name;
+    Array member        int marks[5];
+
+
+Accessing Structure Members:
+
+The dot (.) operator is used to access structure members.
+
+    Syntax:
+
+        structure_variable.member_name;
+
+    Example:
+
+        s1.age = 20;
+        cout << s1.age;
+
+
+Structure with Multiple Variables:
+
+    struct Student
+    {
+        string name;
+        int age;
+        float marks;
+    };
+
+    Student s1;
+    Student s2;
+
+    s1.name = "Yug";
+    s2.name = "Rahul";
+
+
+Here:
+
+    s1 and s2 = structure variables
+    name      = member
+    Each structure variable has its own copy of the members.
+
+
+Key Points:
+
+    1. Structure members are variables declared inside a struct.
+    2. Members can have different data types.
+    3. Each structure variable has its own members.
+    4. The dot (.) operator is used to access members.
+    5. Structure members store the data related to the structure.
+
+
+In simple words:
+
+    Structure Members = struct ke andar declared variables jo
+    related information ko store karte hain.
+
+
+Exam Answer:
+
+Structure members are the variables or data items declared inside
+a structure. They store the information associated with the
+structure and are accessed using the dot (.) operator.
