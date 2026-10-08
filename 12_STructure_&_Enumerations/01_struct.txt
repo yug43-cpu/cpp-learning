@@ -1,0 +1,159 @@
+STRUCT
+
+Definition:
+
+struct is a user-defined data type in C++ used to group different
+types of data under one name.
+
+It is useful for storing related information together.
+
+
+Syntax:
+
+    struct StructureName
+    {
+        data_type member1;
+        data_type member2;
+        data_type member3;
+    };
+
+
+Example:
+
+    #include <iostream>
+    using namespace std;
+
+    struct Student
+    {
+        string name;
+        int age;
+        float marks;
+    };
+
+    int main()
+    {
+        Student s1;
+
+        s1.name = "Yug";
+        s1.age = 20;
+        s1.marks = 85.5;
+
+        cout << "Name: " << s1.name << endl;
+        cout << "Age: " << s1.age << endl;
+        cout << "Marks: " << s1.marks;
+
+        return 0;
+    }
+
+
+Output:
+
+    Name: Yug
+    Age: 20
+    Marks: 85.5
+
+
+Here:
+
+    struct Student
+        = creates a structure named Student
+
+    name, age, marks
+        = data members of the structure
+
+    Student s1
+        = creates a structure variable
+
+    s1.name
+        = accesses the name member
+
+    s1.age
+        = accesses the age member
+
+    s1.marks
+        = accesses the marks member
+
+
+Different Data Types:
+
+A struct can contain different data types in the same structure.
+
+    struct Student
+    {
+        string name;
+        int age;
+        float marks;
+    };
+
+
+Here:
+
+    string = stores text
+    int    = stores integer
+    float  = stores decimal value
+
+
+Structure Variable Initialization:
+
+    struct Student
+    {
+        string name;
+        int age;
+        float marks;
+    };
+
+    Student s1 = {"Yug", 20, 85.5};
+
+
+Accessing Members:
+
+    cout << s1.name;
+    cout << s1.age;
+    cout << s1.marks;
+
+
+Member Access Operator:
+
+    The dot (.) operator is used to access members of a structure.
+
+    Syntax:
+
+        structure_variable.member_name;
+
+    Example:
+
+        s1.age;
+
+
+Struct vs Array:
+
+    Feature             Struct                  Array
+    ---------------------------------------------------------
+    Data types          Can be different        Same data type
+    Purpose             Groups related data     Stores multiple
+                                                similar values
+    Access              Member name             Index
+    Example             s1.age                  marks[0]
+
+
+Key Points:
+
+    1. struct is a user-defined data type.
+    2. It groups related data under one name.
+    3. A struct can contain different data types.
+    4. Variables created from a struct are called structure variables.
+    5. The dot (.) operator is used to access structure members.
+    6. Structures are useful for representing real-world entities.
+
+
+In simple words:
+
+    struct = different types ke related data ko ek hi group me
+    store karne ke liye use hota hai.
+
+
+Exam Answer:
+
+A struct is a user-defined data type in C++ used to group related
+data members of different data types under a single name. The
+members of a structure are accessed using the dot (.) operator.
