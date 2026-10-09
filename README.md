@@ -184,7 +184,7 @@
 
 # 📌 12. Structures & Enumerations🔄
 
-* 🔄 `struct`
+*  `struct`
 * ⬜ Structure Members
 * ⬜ Array of Structures
 * ⬜ Nested Structures
